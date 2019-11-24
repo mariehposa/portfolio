@@ -15,27 +15,27 @@ export default function Contact () {
     );
 }
 
-// const validateValue = (formValue) => {
-//     const error = {};
+const validateValue = (formValue) => {
+    const error = {};
 
-//     if (!formValue.name) {
-//         error.name = 'name is required!';
-//     }
+    if (!formValue.name) {
+        error.name = 'name is required!';
+    }
 
-//     if (!formValue.email) {
-//         error.email = 'email is required!'
-//     }
+    if (!formValue.email) {
+        error.email = 'email is required!'
+    }
 
-//     if (!formValue.message) {
-//         error.message = 'message is required!'
-//     }
-// }
+    if (!formValue.message) {
+        error.message = 'message is required!'
+    }
+}
 
-// const validation = yup.object().shape({
-//     name: yup.string().required('input correct name!'),
-//     email: yup.email().required('input correct email!'),
-//     message: yup.string().required('message should be in letters!')
-// })
+const validation = yup.object().shape({
+    name: yup.string().required('input correct name!'),
+    email: yup.email().required('input correct email!'),
+    message: yup.string().required('message should be in letters!')
+})
 
 function ContactForm () {
     return (
