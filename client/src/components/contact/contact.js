@@ -2,6 +2,8 @@ import React from 'react';
 import { Formik, Form, ErrorMessage, Field, validateYupSchema } from 'formik';
 import axios from 'axios';
 
+const contactUrl = `https://mariam-portfolio-backend.herokuapp.com/api/contact`
+
 const initialValue = {
     name: '',
     email: '',
@@ -16,6 +18,18 @@ export default function Contact () {
             message: formValues.message
         }
 
+        axios.post(contactUrl, {
+            name: toLogin.name,
+            email: toLogin.email,
+            message: toLogin.message
+        })
+        .then(res => {
+            console.log(res.data)
+        })
+        .catch(error => {
+            console.log(error)
+        })
+        action.resetForm()
     }
 
     return (
