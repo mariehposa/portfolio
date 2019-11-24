@@ -3,7 +3,7 @@ import { Formik, Form, ErrorMessage, Field } from 'formik';
 import * as yup from 'yup';
 import axios from 'axios';
 
-const contactUrl = `https://mariam-portfolio-backend.herokuapp.com/api/contact`
+const contactUrl = 'https://mariam-portfolio-backend.herokuapp.com/api/contact'
 
 const initialValue = {
     name: '',
@@ -35,6 +35,8 @@ export default function Contact () {
 
     return (
         <div>
+            <h3>Contact</h3>
+            <p>Have a question or minding a project? <span>Let's talk!</span></p>
             <ContactForm  onSubmitButton={onSubmitButton}/>
         </div>
     );
