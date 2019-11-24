@@ -1,5 +1,6 @@
 import React from 'react';
-import { Formik, Form, ErrorMessage, Field, validateYupSchema } from 'formik';
+import { Formik, Form, ErrorMessage, Field } from 'formik';
+import * as yup from 'yup';
 import axios from 'axios';
 
 const contactUrl = `https://mariam-portfolio-backend.herokuapp.com/api/contact`
@@ -34,7 +35,7 @@ export default function Contact () {
 
     return (
         <div>
-            <ContactForm />
+            <ContactForm  onSubmitButton={onSubmitButton}/>
         </div>
     );
 }
@@ -57,19 +58,19 @@ const validateValue = (formValue) => {
 
 const validation = yup.object().shape({
     name: yup.string().required('input correct name!'),
-    email: yup.email().required('input correct email!'),
+    email: yup.string().required('input correct email!'),
     message: yup.string().required('message should be in letters!')
 })
 
-function ContactForm () {
+function ContactForm ({onSubmitButton}) {
     return (
         <div>
             <Formik 
+                initialValues={initialValue}
+                validate={validateValue}
+                validationSchema={validation}
+                onsubmit={onSubmitButton}
                 render={props => {
-                    initialValues={initialValue}
-                    validate={validateValue}
-                    validationSchema={validation}
-                    onsubmit={onSubmitButton}
                     return (
                         <Form>
                             <Field name="name" type="text" placeholder="Name" />
