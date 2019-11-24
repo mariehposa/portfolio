@@ -37,27 +37,27 @@ export default function Contact () {
 //     message: yup.string().required('message should be in letters!')
 // })
 
-// function ContactForm () {
-//     return (
-//         <div>
-//             <Formik 
-//                 render={props => {
-//                     return (
-//                         <Form>
-//                             <Field name="name" type="text" placeholder="Name" />
-//                             <ErrorMessage name="name" component="div" />
-//                             <br />
-//                             <Field name="email" type="email" placeholder="Email" />
-//                             <ErrorMessage name="email" component="div" />
-//                             <br />
-//                             <Field name="message" type="text" placeholder="Message" />
-//                             <ErrorMessage name="message" component="div" />
-//                             <br />
-//                             <button type="submit">Submit</button>
-//                         </Form>
-//                     )
-//                 }}
-//             />
-//         </div>
-//     );
-// }
+function ContactForm () {
+    return (
+        <div>
+            <Formik 
+                render={props => {
+                    return (
+                        <Form>
+                            <Field name="name" type="text" placeholder="Name" />
+                            <ErrorMessage name="name" component="div" />
+                            <br />
+                            <Field name="email" type="email" placeholder="Email" />
+                            <ErrorMessage name="email" component="div" />
+                            <br />
+                            <Field name="message" type="text" placeholder="Message" />
+                            <ErrorMessage name="message" component="div" />
+                            <br />
+                            <button type="submit">Submit</button>
+                        </Form>
+                    )
+                }}
+            />
+        </div>
+    );
+}
