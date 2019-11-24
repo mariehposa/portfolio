@@ -1,11 +1,11 @@
 import React from 'react';
 import { Formik, Form, ErrorMessage, Field } from 'formik';
 
-// const initialValue = {
-//     name: '',
-//     email: '',
-//     message: ''
-// }
+const initialValue = {
+    name: '',
+    email: '',
+    message: ''
+}
 
 export default function Contact () {
     return (
