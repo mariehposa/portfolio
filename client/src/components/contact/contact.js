@@ -1,5 +1,6 @@
 import React from 'react';
-import { Formik, Form, ErrorMessage, Field } from 'formik';
+import { Formik, Form, ErrorMessage, Field, validateYupSchema } from 'formik';
+import axios from 'axios';
 
 const initialValue = {
     name: '',
@@ -8,6 +9,15 @@ const initialValue = {
 }
 
 export default function Contact () {
+    const onSubmitButton = ( formValues, action) => {
+        const toLogin = {
+            name: formValues.name,
+            email: formValues.email,
+            message: formValues.message
+        }
+
+    }
+
     return (
         <div>
             <ContactForm />
@@ -42,6 +52,10 @@ function ContactForm () {
         <div>
             <Formik 
                 render={props => {
+                    initialValues={initialValue}
+                    validate={validateValue}
+                    validationSchema={validation}
+                    onsubmit={onSubmitButton}
                     return (
                         <Form>
                             <Field name="name" type="text" placeholder="Name" />
