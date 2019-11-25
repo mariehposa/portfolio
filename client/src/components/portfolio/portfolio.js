@@ -22,7 +22,7 @@ export default function Portfolio() {
             <Link to="/portfolio/node">NODE</Link>
         </div>
         <div>
-            <Route path="/portfolio" render={props => (Html, EReact, Redux, Node ) }/>
+            <Route exact path="/portfolio" component={All}  />
             <Route path="/portfolio/html" component={Html} />
             <Route path="/portfolio/react" component={EReact} />
             <Route path="/portfolio/redux" component={Redux} />
@@ -30,6 +30,14 @@ export default function Portfolio() {
         </div>
     </div>
   );
+}
+
+function All(){
+    return (
+        <div>
+            <Html /> <EReact/> <Redux/> <Node/>
+        </div>
+    )
 }
 
 export function Html () {
