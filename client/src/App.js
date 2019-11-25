@@ -14,7 +14,7 @@ function App() {
       {/* <Route exact path="/" component={Header} /> */}
       <Navigation />
       {/* <Route path="/about" component={About} /> */}
-      {/* <Route path="/portfolio" component={Portfolio}/> */}
+      <Route path="/portfolio" component={Portfolio}/>
       {/* <Route path="/project" component={Project}/> */}
       <Route path="/contact" component={Contact} />
       <Route path="/footer" component={Footer}/>

@@ -7,6 +7,7 @@
     "formik": "^2.0.6",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-flippy": "^0.1.5",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
     "yup": "^0.27.0"
