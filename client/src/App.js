@@ -12,7 +12,7 @@ function App() {
   return (
     <div>
       {/* <Route exact path="/" component={Header} /> */}
-      <Navigation />
+      <AllComponents />
       {/* <Route path="/about" component={About} /> */}
       <Route path="/portfolio" component={Portfolio}/>
       {/* <Route path="/project" component={Project}/> */}
@@ -23,3 +23,17 @@ function App() {
 }
 
 export default App;
+
+function AllComponents () {
+  return (
+    <div>
+      {/* <Header /> */}
+      <Navigation />
+      {/* <About /> */}
+      <Portfolio />
+      {/* <Project /> */}
+      <Contact />
+      <Footer />
+    </div>
+  );
+}

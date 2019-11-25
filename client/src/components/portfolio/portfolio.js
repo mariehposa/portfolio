@@ -15,14 +15,14 @@ export default function Portfolio() {
     <div>
         <h3> PORTFOLIO </h3>
         <div>
-            <Link to="/portfolio">ALL</Link>
+            <Link to="/">ALL</Link>
             <Link to="/portfolio/html">HTML</Link>
             <Link to="/portfolio/react">REACT</Link>
             <Link to="/portfolio/redux">REDUX</Link>
             <Link to="/portfolio/node">NODE</Link>
         </div>
         <div>
-            <Route exact path="/portfolio" component={All}  />
+            <Route exact path="/" component={All}  />
             <Route path="/portfolio/html" component={Html} />
             <Route path="/portfolio/react" component={EReact} />
             <Route path="/portfolio/redux" component={Redux} />
