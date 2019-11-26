@@ -7,6 +7,7 @@ import dynamic from "./logo/006-startup.png";
 export default function About() {
   return (
     <div>
+        <h2>ABOUT</h2>
       <div>
         <img src={fast} alt="fast" />
         <h3>Fast</h3>
