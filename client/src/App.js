@@ -13,7 +13,7 @@ function App() {
     <div>
       {/* <Route exact path="/" component={Header} /> */}
       {/* <AllComponents /> */}
-      {/* <Route path="/about" component={About} />  */}
+      <Route path="/about" component={About} /> 
       <Navigation />
       <Route path="/portfolio" component={Portfolio}/>
       <Route path="/project" component={Project}/>
@@ -28,11 +28,10 @@ export default App;
 function AllComponents () {
   return (
     <div>
-      {/* <Header /> */}
-     
-      {/* <About /> */}
+      <Header />
+      <About />
       <Portfolio />
-      {/* <Project /> */}
+      <Project />
       <Contact />
       <Footer />
     </div>
