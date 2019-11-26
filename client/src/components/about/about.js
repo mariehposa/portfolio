@@ -8,32 +8,36 @@ import owner from "./img/owner.jpg";
 
 const skills = [
   {
-    "type": "Java",
-    "level": 100
+    "type": "HTML",
+    "level": 90
   },
   {
-    "type": "React",
-    "level": 85
+    "type": "CSS",
+    "level": 80
   },
   {
     "type": "Javascript",
+    "level": 70
+  },
+  {
+    "type": "React",
     "level": 75
   },
   {
-    "type": "Spring",
+    "type": "Redux",
+    "level": 70
+  },
+  {
+    "type": "Node",
+    "level": 65
+  },
+  {
+    "type": "Sqlite3",
+    "level": 60
+  },
+  {
+    "type": "Postgres",
     "level": 50
-  },
-  {
-    "type": "Docker",
-    "level": 25
-  },
-  {
-    "type": "HTML",
-    "level": 20
-  },
-  {
-    "type": "NoSQL",
-    "level": 0
   }
 ]
 
