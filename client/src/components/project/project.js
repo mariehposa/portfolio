@@ -1,26 +1,35 @@
-import React from 'react';
-import AwesomeSlider from 'react-awesome-slider';
-import withAutoplay from 'react-awesome-slider/dist/autoplay';
-import 'react-awesome-slider/dist/styles.css';
+import React from "react";
+import { Slide } from "react-slideshow-image";
+import ecommerce from "./img/ecommerce.png";
+import construction from "./img/construction.jpg";
+import restaurant from "./img/restaurant.jpg";
+import savory from "./img/savory.jpg";
 
-const AutoplaySlider = withAutoplay(AwesomeSlider);
+const properties = {
+  duration: 5000,
+  transitionDuration: 500,
+  infinite: true,
+  indicators: true,
+  arrows: false
+};
 
-const slider = (
-  <AutoplaySlider
-    play={true}
-    cancelOnInteraction={false} // should stop playing on user interaction
-    interval={6000}
-  >
-    <div data-src="/path/to/image-0.png" />
-    <div data-src="/path/to/image-1.png" />
-    <div data-src="/path/to/image-2.jpg" />
-  </AutoplaySlider>
-);
-
-export default function () {
-    return (
+export default function Project() {
+  return (
+    <div>
+      <Slide {...properties}>
         <div>
-            
+          <img src={ecommerce} alt="E-commerce" />
         </div>
-    );
+        <div>
+          <img src={construction} alt="construction" />
+        </div>
+        <div>
+          <img src={restaurant} alt="restaurant" />
+        </div>
+        <div>
+          <img src={savory} alt="savory" />
+        </div>
+      </Slide>
+    </div>
+  );
 }
