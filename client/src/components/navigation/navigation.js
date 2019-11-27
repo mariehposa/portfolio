@@ -5,7 +5,6 @@ export default function Navigation () {
 
     function navigate(elementId){
         let offsetTop  = document.getElementById(elementId).offsetTop;
-        // var right = document.getElementById("#right");
         window.scrollTo({
           top: offsetTop-100, 
           behavior: "smooth"
