@@ -1,18 +1,19 @@
 import React from "react";
 import Particles from "react-particles-js";
-import { HeaderStyle } from "./styles";
+import '../../App.css'
+import { HeaderStyle, Styledtext, FancyDiv } from "./styles";
 
 export default function Header() {
   return (
     <HeaderStyle id={"header"}>
-      <div>
+      <Styledtext>
         <p>
           Hello,
           <span>I'm Mariam Adedeji.</span>
         </p>
         <p>I'm a full stack web developer.</p>
-        <div> View my work</div>
-      </div>
+        <FancyDiv> View my work</FancyDiv>
+      </Styledtext>
 
       <Particles
         className="Particles"
@@ -89,7 +90,7 @@ export default function Header() {
                 "detect_on": "canvas",
                 "events": {
                   "onhover": {
-                    "enable": true,
+                    "enable": false,
                     "mode": "repulse"
                   },
                   "onclick": {
