@@ -5,7 +5,7 @@ export default function Navigation () {
 
     function navigate(elementId){
         let offsetTop  = document.getElementById(elementId).offsetTop;
-        var right = document.getElementById("#right");
+        // var right = document.getElementById("#right");
         window.scrollTo({
           top: offsetTop-100, 
           behavior: "smooth"
@@ -14,12 +14,11 @@ export default function Navigation () {
 
     return (
         <div>
-           <Link to="/">HOME</Link>
-           <Link to="/about">ABOUT</Link>
+           <Link onClick = {() => navigate('header')} to="/">HOME</Link>
+           <Link onClick = {() => navigate('about')} to="/about">ABOUT</Link>
            <Link onClick = {() => navigate('portfolio')}  to="/portfolio">PORTFOLIO</Link>
-           <Link to="/project">PROJECTS</Link>
-           <Link to="/contact">CONTACT</Link>
-           <Link to="/footer">FOOTER</Link>
+           <Link onClick = {() => navigate('project')} to="/project">PROJECTS</Link>
+           <Link onClick = {() => navigate('contact')} to="/contact">CONTACT</Link>
         </div>
     );
 }
