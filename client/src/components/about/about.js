@@ -75,7 +75,7 @@ const colors = {
 
 export default function About() {
   return (
-    <div>
+    <div id={'about'}>
       <h2>ABOUT</h2>
       <div>
         <img src={fast} alt="fast" />

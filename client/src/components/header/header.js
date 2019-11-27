@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Header () {
     return (
-        <div>
+        <div id={'header'}>
             <p>Hello, 
                 <span>I'm Mariam Adedeji.</span>
             </p>
