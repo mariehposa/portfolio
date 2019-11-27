@@ -51,7 +51,7 @@ export function Html () {
                     <h4>Chef Portfolio</h4>
                     <p>Html and Css</p>
                     <div>
-                        <a href="">View site</a>
+                        <a href="/a">View site</a>
                         <a href="https://github.com/mariehposa" title="github profile">
                             <img src={github} alt="github logo"/>
                             <p>View on github</p>
@@ -74,7 +74,7 @@ export function EReact () {
                     <h4>Starwars</h4>
                     <p>React and pure Javascript</p>
                     <div>
-                        <a href="">View site</a>
+                        <a href="/a">View site</a>
                         <a href="https://github.com/mariehposa" title="github profile">
                             <img src={github} alt="github logo"/>
                             <p>View on github</p>
@@ -91,7 +91,7 @@ export function EReact () {
                     <h4>Rick & Morty</h4>
                     <p>React and pure Javascript</p>
                     <div>
-                        <a href="">View site</a>
+                        <a href="/a">View site</a>
                         <a href="https://github.com/mariehposa" title="github profile">
                             <img src={github} alt="github logo"/>
                             <p>View on github</p>
@@ -108,7 +108,7 @@ export function EReact () {
                     <h4>Hair Care</h4>
                     <p>React and pure Javascript</p>
                     <div>
-                        <a href="">View site</a>
+                        <a href="/a">View site</a>
                         <a href="https://github.com/mariehposa" title="github profile">
                             <img src={github} alt="github logo"/>
                             <p>View on github</p>
@@ -131,7 +131,7 @@ export function Redux () {
                     <h4>Split the Bill</h4>
                     <p>React Redux</p>
                     <div>
-                        <a href="">View site</a>
+                        <a href="/a">View site</a>
                         <a href="https://github.com/mariehposa" title="github profile">
                             <img src={github} alt="github logo"/>
                             <p>View on github</p>
@@ -154,7 +154,7 @@ export function Node () {
                     <h4>Essentialism</h4>
                     <p>Node.js and Postgres</p>
                     <div>
-                        <a href="">View site</a>
+                        <a href="/a">View site</a>
                         <a href="https://github.com/mariehposa" title="github profile">
                             <img src={github} alt="github logo"/>
                             <p>View on github</p>

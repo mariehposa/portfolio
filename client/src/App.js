@@ -25,15 +25,15 @@ function App() {
 
 export default App;
 
-function AllComponents () {
-  return (
-    <div>
-      <Header />
-      <About />
-      <Portfolio />
-      <Project />
-      <Contact />
-      <Footer />
-    </div>
-  );
-}
+// function AllComponents () {
+//   return (
+//     <div>
+//       <Header />
+//       <About />
+//       <Portfolio />
+//       <Project />
+//       <Contact />
+//       <Footer />
+//     </div>
+//   );
+// }
