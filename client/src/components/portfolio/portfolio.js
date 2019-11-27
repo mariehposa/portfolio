@@ -12,7 +12,7 @@ import github from './images/github.png';
 
 export default function Portfolio() {
   return (
-    <div>
+    <div  id={'portfolio'}>
         <h3> PORTFOLIO </h3>
         <div>
             <Link to="/">ALL</Link>

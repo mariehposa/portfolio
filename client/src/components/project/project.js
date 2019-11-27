@@ -15,7 +15,7 @@ const properties = {
 
 export default function Project() {
   return (
-    <div>
+    <div id={'project'}>
       <p> UPCOMING PROJECTS </p>
       <Slide {...properties} style={{width: "40rem", height: "28rem"}}>
         <div>

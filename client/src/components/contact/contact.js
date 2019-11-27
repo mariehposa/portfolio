@@ -34,7 +34,7 @@ export default function Contact () {
     }
 
     return (
-        <div>
+        <div id={'contact'}>
             <h3>Contact</h3>
             <p>Have a question or minding a project? <span>Let's talk!</span></p>
             <ContactForm  onSubmitButton={onSubmitButton}/>
