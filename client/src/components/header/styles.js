@@ -4,7 +4,7 @@ import image from "./img/header.jpg";
 export const HeaderStyle = styled.div`
   background-image: url(${image});
   background-size: cover;
-  height: 40rem;
+  height: 30rem;
   position: relative;
   text-align: center;
   padding-top: 15rem;
@@ -18,7 +18,8 @@ export const Styledtext = styled.div`
     line-height: 1rem;
 
     span {
-      color: #e31b6d;
+	  color: #e31b6d;
+	  font-weight: bolder;
     }
   }
 `

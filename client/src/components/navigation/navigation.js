@@ -1,23 +1,32 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { StyledNav, StyledLink } from './styles';
 
-export default function Navigation () {
+export default function Navigation() {
+  function navigate(elementId) {
+    let offsetTop = document.getElementById(elementId).offsetTop;
+    window.scrollTo({
+      top: offsetTop - 100,
+      behavior: "smooth"
+    });
+  }
 
-    function navigate(elementId){
-        let offsetTop  = document.getElementById(elementId).offsetTop;
-        window.scrollTo({
-          top: offsetTop-100, 
-          behavior: "smooth"
-        });
-      }
-
-    return (
-        <div>
-           <Link onClick = {() => navigate('header')} to="/">HOME</Link>
-           <Link onClick = {() => navigate('about')} to="/about">ABOUT</Link>
-           <Link onClick = {() => navigate('portfolio')}  to="/portfolio">PORTFOLIO</Link>
-           <Link onClick = {() => navigate('project')} to="/project">PROJECTS</Link>
-           <Link onClick = {() => navigate('contact')} to="/contact">CONTACT</Link>
-        </div>
-    );
+  return (
+    <StyledNav>
+      <StyledLink onClick={() => navigate("header")} to="/">
+        HOME
+      </StyledLink>
+      <StyledLink onClick={() => navigate("about")} to="/about">
+        ABOUT
+      </StyledLink>
+      <StyledLink onClick={() => navigate("portfolio")} to="/portfolio">
+        PORTFOLIO
+      </StyledLink>
+      <StyledLink onClick={() => navigate("project")} to="/project">
+        PROJECTS
+      </StyledLink>
+      <StyledLink onClick={() => navigate("contact")} to="/contact">
+        CONTACT
+      </StyledLink>
+    </StyledNav>
+  );
 }

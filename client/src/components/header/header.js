@@ -8,8 +8,8 @@ export default function Header() {
     <HeaderStyle id={"header"}>
       <Styledtext>
         <p>
-          Hello,
-          <span>I'm Mariam Adedeji.</span>
+          Hello, I'm
+          <span> Mariam Adedeji.</span>
         </p>
         <p>I'm a full stack web developer.</p>
         <FancyDiv> View my work</FancyDiv>
