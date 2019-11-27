@@ -11,7 +11,7 @@ import Navigation from './components/navigation/navigation'
 function App() {
   return (
     <div>
-      {/* <Route exact path="/" component={Header} /> */}
+      <Route exact path="/" component={Header} />
       {/* <AllComponents /> */}
       <Route path="/about" component={About} /> 
       <Navigation />
