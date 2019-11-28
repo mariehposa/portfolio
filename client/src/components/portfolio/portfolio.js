@@ -9,19 +9,21 @@ import rickMorty from './images/rickAndMorty.png'
 import starwars from './images/starwars.png'
 import essentialism from './images/essentialism.png'
 import github from './images/github.png';
-import { StyledAll } from './styles';
+import { StyledAll, StyledNav } from './styles';
+import { StyledLink } from "../navigation/styles";
 
 export default function Portfolio() {
   return (
     <StyledAll  id={'portfolio'}>
         <h3> PORTFOLIO </h3>
-        <div>
-            <Link to="/">ALL</Link>
-            <Link to="/portfolio/html">HTML</Link>
-            <Link to="/portfolio/react">REACT</Link>
-            <Link to="/portfolio/redux">REDUX</Link>
-            <Link to="/portfolio/node">NODE</Link>
-        </div>
+        <div></div>
+        <StyledNav>
+            <StyledLink to="/">ALL</StyledLink>
+            <StyledLink to="/portfolio/html">HTML</StyledLink>
+            <StyledLink to="/portfolio/react">REACT</StyledLink>
+            <StyledLink to="/portfolio/redux">REDUX</StyledLink>
+            <StyledLink to="/portfolio/node">NODE</StyledLink>
+        </StyledNav>
         <div>
             <Route exact path="/" component={All}  />
             <Route path="/portfolio/html" component={Html} />
