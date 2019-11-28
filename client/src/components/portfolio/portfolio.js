@@ -8,7 +8,7 @@ import rickMorty from "./images/rickAndMorty.png";
 import starwars from "./images/starwars.png";
 import essentialism from "./images/essentialism.png";
 import github from "./images/github.png";
-import { StyledAll, StyledNav, StyledDiv, StyledLink } from "./styles";
+import { StyledAll, StyledNav, StyledDiv, StyledLink, StyledFlip, StyledTotal } from "./styles";
 
 export default function Portfolio() {
   return (
@@ -24,28 +24,28 @@ export default function Portfolio() {
         <StyledLink to="/portfolio/redux">REDUX</StyledLink>
         <StyledLink to="/portfolio/node">NODE</StyledLink>
       </StyledNav>
-      <div>
+      <StyledTotal>
         <Route exact path="/" component={All} />
         <Route path="/portfolio/html" component={Html} />
         <Route path="/portfolio/react" component={EReact} />
         <Route path="/portfolio/redux" component={Redux} />
         <Route path="/portfolio/node" component={Node} />
-      </div>
+      </StyledTotal>
     </StyledAll>
   );
 }
 
 function All() {
   return (
-    <div>
+    <>
       <Html /> <EReact /> <Redux /> <Node />
-    </div>
+    </>
   );
 }
 
 export function Html() {
   return (
-    <div>
+    <>
       <Flippy
         flipOnHover={true}
         flipDirection="horizontal"
@@ -70,13 +70,13 @@ export function Html() {
           </div>
         </BackSide>
       </Flippy>
-    </div>
+    </>
   );
 }
 
 export function EReact() {
   return (
-    <div>
+    <>
       <Flippy
         flipOnHover={true}
         flipDirection="horizontal"
@@ -151,13 +151,13 @@ export function EReact() {
           </div>
         </BackSide>
       </Flippy>
-    </div>
+    </>
   );
 }
 
 export function Redux() {
   return (
-    <div>
+    <>
       <Flippy
         flipOnHover={true}
         flipDirection="horizontal"
@@ -182,13 +182,13 @@ export function Redux() {
           </div>
         </BackSide>
       </Flippy>
-    </div>
+    </>
   );
 }
 
 export function Node() {
   return (
-    <div>
+    <>
       <Flippy
         flipOnHover={true}
         flipDirection="horizontal"
@@ -213,6 +213,6 @@ export function Node() {
           </div>
         </BackSide>
       </Flippy>
-    </div>
+    </>    
   );
 }

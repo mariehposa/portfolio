@@ -51,3 +51,9 @@ export const StyledLink = styled(Link)`
     color: #e31b6d;
   }
 `;
+
+export const StyledTotal = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+`
