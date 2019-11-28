@@ -9,10 +9,11 @@ import rickMorty from './images/rickAndMorty.png'
 import starwars from './images/starwars.png'
 import essentialism from './images/essentialism.png'
 import github from './images/github.png';
+import { StyledAll } from './styles';
 
 export default function Portfolio() {
   return (
-    <div  id={'portfolio'}>
+    <StyledAll  id={'portfolio'}>
         <h3> PORTFOLIO </h3>
         <div>
             <Link to="/">ALL</Link>
@@ -28,7 +29,7 @@ export default function Portfolio() {
             <Route path="/portfolio/redux" component={Redux} />
             <Route path="/portfolio/node" component={Node} />     
         </div>
-    </div>
+    </StyledAll>
   );
 }
 

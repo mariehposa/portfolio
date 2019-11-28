@@ -13,19 +13,19 @@ export default function Navigation() {
 
   return (
     <StyledNav>
-      <StyledLink activeClassName='selected' className='fancyLink'  onClick={() => navigate("header")} exact to="/">
+      <StyledLink onClick={() => navigate("header")} exact to="/">
         HOME
       </StyledLink>
-      <StyledLink  activeClassName='selected' className='fancyLink' onClick={() => navigate("about")} to="/about">
+      <StyledLink onClick={() => navigate("about")} to="/about">
         ABOUT
       </StyledLink>
-      <StyledLink activeClassName='selected'  onClick={() => navigate("portfolio")} to="/portfolio">
+      <StyledLink onClick={() => navigate("portfolio")} to="/portfolio">
         PORTFOLIO
       </StyledLink>
-      <StyledLink activeClassName='selected'  onClick={() => navigate("project")} to="/project">
+      <StyledLink onClick={() => navigate("project")} to="/project">
         PROJECTS
       </StyledLink>
-      <StyledLink activeClassName='selected'  onClick={() => navigate("contact")} to="/contact">
+      <StyledLink onClick={() => navigate("contact")} to="/contact">
         CONTACT
       </StyledLink>
     </StyledNav>
