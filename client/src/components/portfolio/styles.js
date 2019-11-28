@@ -68,6 +68,7 @@ export const StyledBack = styled.div`
   border: 1px solid #e31b6d;
   width: 40%;
   margin-top: 3rem;
+  align-self: center;
 
   &:hover {
     background: #e31b6d;

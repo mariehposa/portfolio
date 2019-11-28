@@ -4,6 +4,7 @@ import ecommerce from "./img/ecommerce.jpg";
 import construction from "./img/construction.jpg";
 import restaurant from "./img/restaurant.jpg";
 import savory from "./img/savory.jpg";
+import { StyledAll, StyledDiv, StyledSlide } from './styles';
 
 const properties = {
   duration: 5000,
@@ -15,34 +16,36 @@ const properties = {
 
 export default function Project() {
   return (
-    <div id={'project'}>
-      <p> UPCOMING PROJECTS </p>
-      <Slide {...properties} style={{width: "40rem", height: "28rem"}}>
-        <div>
-          <img src={ecommerce} alt="E-commerce" style={{ height: "28rem" }} />
+    <StyledAll id={'project'}>
+      <StyledDiv>
+      <h2> UPCOMING PROJECTS </h2>
+      <div></div>
+      </StyledDiv>
+      <Slide {...properties} style={{width: "39rem", height: "28rem", marginTop: "2rem" }}>
+        <StyledSlide>
+          <img src={ecommerce} alt="E-commerce"/>
           <h3>e-commerce</h3>
           <dt>2019</dt>
-        </div>
-        <div>
-          <img src={savory} alt="savory" style={{ height: "28rem" }} />
+        </StyledSlide>
+        <StyledSlide>
+          <img src={savory} alt="savory"/>
           <h3>Savory</h3>
           <dt>2019</dt>
-        </div>
-        <div>
+        </StyledSlide>
+        <StyledSlide>
           <img
             src={construction}
             alt="construction"
-            style={{ height: "28rem" }}
-          />
+                    />
           <h3>Construction</h3>
           <dt>2020</dt>
-        </div>
-        <div>
-          <img src={restaurant} alt="restaurant" style={{ height: "28rem" }} />
+        </StyledSlide>
+        <StyledSlide>
+          <img src={restaurant} alt="restaurant"/>
           <h3>Chen Restaurant</h3>
           <dt>2020</dt>
-        </div>
+        </StyledSlide>
       </Slide>
-    </div>
+    </StyledAll>
   );
 }
