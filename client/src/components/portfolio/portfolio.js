@@ -8,7 +8,16 @@ import rickMorty from "./images/rickAndMorty.png";
 import starwars from "./images/starwars.png";
 import essentialism from "./images/essentialism.png";
 import github from "./images/github.png";
-import { StyledAll, StyledNav, StyledDiv, StyledLink, StyledFlip, StyledTotal } from "./styles";
+import {
+  StyledAll,
+  StyledNav,
+  StyledDiv,
+  StyledLink,
+  StyledTotal,
+  StyledP,
+  StyledBack,
+  StyledA
+} from "./styles";
 
 export default function Portfolio() {
   return (
@@ -58,16 +67,16 @@ export function Html() {
             style={{ width: "320px", height: "280px" }}
           />
         </FrontSide>
-        <BackSide style={{ backgroundColor: "#175852" }}>
-          <h4>Chef Portfolio</h4>
-          <p>Html and Css</p>
-          <div>
-            <a href="/a">View site</a>
+        <BackSide>
+          <h3>Chef Portfolio</h3>
+          <StyledP>Html and Css</StyledP>
+          <StyledA href="/a">View site</StyledA>
+          <StyledBack>
             <a href="https://github.com/mariehposa" title="github profile">
               <img src={github} alt="github logo" />
               <p>View on github</p>
             </a>
-          </div>
+          </StyledBack>
         </BackSide>
       </Flippy>
     </>
@@ -89,16 +98,16 @@ export function EReact() {
             style={{ width: "320px", height: "280px" }}
           />
         </FrontSide>
-        <BackSide style={{ backgroundColor: "#175852" }}>
-          <h4>Starwars</h4>
-          <p>React and pure Javascript</p>
-          <div>
-            <a href="/a">View site</a>
+        <BackSide>
+          <h3>Starwars</h3>
+          <StyledP>React and pure Javascript</StyledP>
+          <StyledA href="/a">View site</StyledA>
+          <StyledBack>
             <a href="https://github.com/mariehposa" title="github profile">
               <img src={github} alt="github logo" />
               <p>View on github</p>
             </a>
-          </div>
+          </StyledBack>
         </BackSide>
       </Flippy>
 
@@ -114,16 +123,16 @@ export function EReact() {
             style={{ width: "320px", height: "280px" }}
           />
         </FrontSide>
-        <BackSide style={{ backgroundColor: "#175852" }}>
-          <h4>Rick & Morty</h4>
-          <p>React and pure Javascript</p>
-          <div>
-            <a href="/a">View site</a>
+        <BackSide>
+          <h3>Rick & Morty</h3>
+          <StyledP>React and pure Javascript</StyledP>
+          <StyledA href="/a">View site</StyledA>
+          <StyledBack>
             <a href="https://github.com/mariehposa" title="github profile">
               <img src={github} alt="github logo" />
               <p>View on github</p>
             </a>
-          </div>
+          </StyledBack>
         </BackSide>
       </Flippy>
 
@@ -139,16 +148,16 @@ export function EReact() {
             style={{ width: "320px", height: "280px" }}
           />
         </FrontSide>
-        <BackSide style={{ backgroundColor: "#175852" }}>
-          <h4>Hair Care</h4>
-          <p>React and pure Javascript</p>
-          <div>
-            <a href="/a">View site</a>
+        <BackSide>
+          <h3>Hair Care</h3>
+          <StyledP>React and pure Javascript</StyledP>
+          <StyledA href="/a">View site</StyledA>
+          <StyledBack>
             <a href="https://github.com/mariehposa" title="github profile">
               <img src={github} alt="github logo" />
               <p>View on github</p>
             </a>
-          </div>
+          </StyledBack>
         </BackSide>
       </Flippy>
     </>
@@ -170,16 +179,16 @@ export function Redux() {
             style={{ width: "320px", height: "280px" }}
           />
         </FrontSide>
-        <BackSide style={{ backgroundColor: "#175852" }}>
-          <h4>Split the Bill</h4>
-          <p>React Redux</p>
-          <div>
-            <a href="/a">View site</a>
+        <BackSide>
+          <h3>Split the Bill</h3>
+          <StyledP>React Redux</StyledP>
+          <StyledA href="/a">View site</StyledA>
+          <StyledBack>
             <a href="https://github.com/mariehposa" title="github profile">
               <img src={github} alt="github logo" />
               <p>View on github</p>
             </a>
-          </div>
+          </StyledBack>
         </BackSide>
       </Flippy>
     </>
@@ -201,18 +210,18 @@ export function Node() {
             style={{ width: "320px", height: "280px" }}
           />
         </FrontSide>
-        <BackSide style={{ backgroundColor: "#175852" }}>
-          <h4>Essentialism</h4>
-          <p>Node.js and Postgres</p>
-          <div>
-            <a href="/a">View site</a>
+        <BackSide>
+          <h3>Essentialism</h3>
+          <StyledP>Node.js and Postgres</StyledP>
+          <StyledA href="/a">View site</StyledA>
+          <StyledBack>
             <a href="https://github.com/mariehposa" title="github profile">
               <img src={github} alt="github logo" />
               <p>View on github</p>
             </a>
-          </div>
+          </StyledBack>
         </BackSide>
       </Flippy>
-    </>    
+    </>
   );
 }

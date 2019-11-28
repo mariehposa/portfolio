@@ -7,6 +7,7 @@ export const StyledAll = styled.div`
   flex-direction: column;
   align-items: center;
   background: #f5f5f5;
+  text-align: center;
 `;
 
 export const StyledDiv = styled.div`
@@ -56,4 +57,43 @@ export const StyledTotal = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+`;
+
+export const StyledP = styled.p`
+  color: #e31b6d;
+`;
+
+export const StyledBack = styled.div`
+  padding-top: 1rem;
+  border: 1px solid #e31b6d;
+  width: 40%;
+  margin-top: 3rem;
+
+  &:hover {
+    background: #e31b6d;
+    color: white;
+  }
+
+  a {
+    text-decoration: none;
+
+    p {
+      margin-left: 0.7rem;
+      color: #000000;
+      text-align: center;
+
+      &:hover {
+        color: #ffffff;
+      }
+    }
+  }
+`;
+
+export const StyledA = styled.a`
+  text-decoration: none;
+  color: #000000;
+
+  &:hover {
+    color: #04c2c9;
+  }
 `
