@@ -5,7 +5,7 @@ import responsive from "./img/002-responsive.png";
 import intuitive from "./img/004-lightbulb.png";
 import dynamic from "./img/006-startup.png";
 import owner from "./img/owner.jpg";
-import { StyledAll, StyledDiv, StyledProps } from "./styles";
+import { StyledAll, StyledDiv, StyledProps, AboutMe, StyledMe, StyledChart, StyledText } from "./styles";
 
 const skills = [
   {
@@ -84,44 +84,44 @@ export default function About() {
       <StyledProps>
         <div>
           <img src={fast} alt="fast" />
-          <h3>Fast</h3>
+          <StyledText>Fast</StyledText>
           <p>Fast load times and lag free interaction, my highest priority.</p>
         </div>
         <div>
           <img src={responsive} alt="responsive" />
-          <h3>Responsive</h3>
+          <StyledText>Responsive</StyledText>
           <p>My layouts will work on any device, big or small.</p>
         </div>
         <div>
           <img src={intuitive} alt="intuitive" />
-          <h3>Intuitive</h3>
+          <StyledText>Intuitive</StyledText>
           <p>My layouts will work on any device, big or small.</p>
         </div>
         <div>
           <img src={dynamic} alt="dynamic" />
-          <h3>Dynamic</h3>
+          <StyledText>Dynamic</StyledText>
           <p>
             Websites don't have to be static, I love making pages come to life.
           </p>
         </div>
       </StyledProps>
 
-      <div>
-        <div>
+      <AboutMe>
+        <StyledMe>
           <img src={owner} alt="mariam adedeji" />
-          <h3>Who's this lady?</h3>
+          <StyledText>Who's this lady?</StyledText>
           <p>
-            I'm a full-stack Web developer with excellent communication skills
+            I'm a <span>full-stack Web developer</span> with excellent communication skills
             and vast experience. I like to create beautiful and engaging user
             interfaces with HTML5, CSS3, javascript, Front end frameworks like
-            react, nodes and postgres for backend. Let's make something
-            special... Cheers!!!
+            react, nodes and postgres for backend. <span>Let's make something
+            special... Cheers!!!</span>
           </p>
-        </div>
-        <div>
+        </StyledMe>
+        <StyledChart>
           <SkillBar skills={skills} colors={colors} />
-        </div>
-      </div>
+        </StyledChart>
+      </AboutMe>
     </StyledAll>
   );
 }

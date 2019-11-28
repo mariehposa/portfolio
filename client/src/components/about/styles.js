@@ -29,7 +29,6 @@ export const StyledProps = styled.div`
     display: flex;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
-    /* font-size: 1.2rem; */
 
     div {
         margin: 2rem 0 0 4rem;
@@ -42,4 +41,35 @@ export const StyledProps = styled.div`
             font-weight: bold;
         }
     }
+`
+
+export const AboutMe = styled.div`
+    display: flex;
+    padding: 2rem 0;
+`
+
+export const StyledMe = styled.div`
+    width: 45%;
+    margin-left: 4rem;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+
+    img{
+        width: 50%;
+        box-shadow: 7px 7px 0px 0px #04c2c9;
+    }
+
+    span {
+        color: #04c2c9;
+    }
+`
+
+export const StyledChart = styled.div`
+    width: 55%;
+    margin-left: 4rem;
+`
+
+export const StyledText = styled.p`
+    font-weight: bold;
+    font-size: 1.2rem;
 `
