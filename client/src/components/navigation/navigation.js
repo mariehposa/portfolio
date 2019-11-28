@@ -1,5 +1,6 @@
 import React from "react";
 import { StyledNav, StyledLink } from './styles';
+import "../../App.css";
 
 export default function Navigation() {
   function navigate(elementId) {
@@ -12,19 +13,19 @@ export default function Navigation() {
 
   return (
     <StyledNav>
-      <StyledLink onClick={() => navigate("header")} to="/">
+      <StyledLink activeClassName='selected' className='fancyLink'  onClick={() => navigate("header")} exact to="/">
         HOME
       </StyledLink>
-      <StyledLink onClick={() => navigate("about")} to="/about">
+      <StyledLink  activeClassName='selected' className='fancyLink' onClick={() => navigate("about")} to="/about">
         ABOUT
       </StyledLink>
-      <StyledLink onClick={() => navigate("portfolio")} to="/portfolio">
+      <StyledLink activeClassName='selected'  onClick={() => navigate("portfolio")} to="/portfolio">
         PORTFOLIO
       </StyledLink>
-      <StyledLink onClick={() => navigate("project")} to="/project">
+      <StyledLink activeClassName='selected'  onClick={() => navigate("project")} to="/project">
         PROJECTS
       </StyledLink>
-      <StyledLink onClick={() => navigate("contact")} to="/contact">
+      <StyledLink activeClassName='selected'  onClick={() => navigate("contact")} to="/contact">
         CONTACT
       </StyledLink>
     </StyledNav>
