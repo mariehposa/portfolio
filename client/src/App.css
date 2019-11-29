@@ -7,6 +7,31 @@
   bottom: 0;
 }
 
-.selected {
-  color: #e31b6d;
+.dark-mode__toggle {
+  background: #fff;
+  border-radius: 50px;
+  border: 1px solid black;
+  height: 20px;
+  position: relative;
+  width: 40px;
+}
+
+.toggle {
+  background: #e31b6d;
+  border-radius: 50px;
+  height: 18px;
+  margin-top: 1px;
+  left: 0;
+  position: absolute;
+  transition: 0.2s;
+  width: 20px;
+}
+
+.toggled {
+  left: 20px;
+}
+
+.darkMode {
+  color: #fff;
+  background-color: #313843;
 }
