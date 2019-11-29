@@ -14,16 +14,11 @@ const initialValue = {
 
 export default function Contact () {
     const onSubmitButton = ( formValues, action) => {
-        const toLogin = {
+
+        axios.post(contactUrl, {
             name: formValues.name,
             email: formValues.email,
             message: formValues.message
-        }
-
-        axios.post(contactUrl, {
-            name: toLogin.name,
-            email: toLogin.email,
-            message: toLogin.message
         })
         .then(res => {
             console.log(res.data)
@@ -75,7 +70,7 @@ function ContactForm ({onSubmitButton}) {
                 initialValues={initialValue}
                 validate={validateValue}
                 validationSchema={validation}
-                onsubmit={onSubmitButton}
+                onSubmit={onSubmitButton}
                 render={props => {
                     return (
                         <StyleForm>
