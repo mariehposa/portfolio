@@ -1,8 +1,16 @@
 import React from "react";
-import { StyledNav, StyledLink } from './styles';
+import { StyledNav, StyledLink } from "./styles";
 import "../../App.css";
+import { DarkMode } from "../hooks/darkMode";
+import { settings } from './logo/settings';
 
 export default function Navigation() {
+  const [darkMode, setDarkMode] = DarkMode(false);
+  const toggleMode = e => {
+    e.preventDefault();
+    setDarkMode(!darkMode);
+  };
+
   function navigate(elementId) {
     let offsetTop = document.getElementById(elementId).offsetTop;
     window.scrollTo({
@@ -28,6 +36,11 @@ export default function Navigation() {
       <StyledLink onClick={() => navigate("contact")} to="/contact">
         CONTACT
       </StyledLink>
+      <div>
+        <div>
+          <img src={settings} alt="mode" />
+        </div>
+      </div>
     </StyledNav>
   );
 }
