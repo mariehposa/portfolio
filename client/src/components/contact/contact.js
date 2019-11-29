@@ -88,7 +88,7 @@ function ContactForm ({onSubmitButton}) {
                             <StyleField name="message" type="text" component="textarea" rows={8} placeholder="Message" />
                             <ErrorMessage name="message" component="div" />
                             <br />
-                            <StyledButton type="submit">Submit</StyledButton>
+                            <StyledButton type="submit">SUBMIT</StyledButton>
                         </StyleForm>
                     )
                 }}

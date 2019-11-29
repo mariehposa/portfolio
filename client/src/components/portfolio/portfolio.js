@@ -16,8 +16,10 @@ import {
   StyledTotal,
   StyledP,
   StyledBack,
-  StyledA
+  StyledA,
+  StyledBackAll
 } from "./styles";
+
 
 export default function Portfolio() {
   return (
@@ -68,15 +70,17 @@ export function Html() {
           />
         </FrontSide>
         <BackSide>
-          <h3>Chef Portfolio</h3>
-          <StyledP>Html and Css</StyledP>
-          <StyledA href="/a">View site</StyledA>
-          <StyledBack>
-            <a href="https://github.com/mariehposa" title="github profile">
-              <img src={github} alt="github logo" />
-              <p>View on github</p>
-            </a>
-          </StyledBack>
+          <StyledBackAll>
+            <h3>Chef Portfolio</h3>
+            <StyledP>Html and Css</StyledP>
+            <StyledA href="/a">View site</StyledA>
+            <StyledBack>
+              <a href="https://github.com/mariehposa" title="github profile">
+                <img src={github} alt="github logo" />
+                <p>View on github</p>
+              </a>
+            </StyledBack>
+          </StyledBackAll>
         </BackSide>
       </Flippy>
     </>
@@ -99,15 +103,17 @@ export function EReact() {
           />
         </FrontSide>
         <BackSide>
-          <h3>Starwars</h3>
-          <StyledP>React and pure Javascript</StyledP>
-          <StyledA href="/a">View site</StyledA>
-          <StyledBack>
-            <a href="https://github.com/mariehposa" title="github profile">
-              <img src={github} alt="github logo" />
-              <p>View on github</p>
-            </a>
-          </StyledBack>
+          <StyledBackAll>
+            <h3>Starwars</h3>
+            <StyledP>React and pure Javascript</StyledP>
+            <StyledA href="/a">View site</StyledA>
+            <StyledBack>
+              <a href="https://github.com/mariehposa" title="github profile">
+                <img src={github} alt="github logo" />
+                <p>View on github</p>
+              </a>
+            </StyledBack>
+          </StyledBackAll>
         </BackSide>
       </Flippy>
 
@@ -124,15 +130,17 @@ export function EReact() {
           />
         </FrontSide>
         <BackSide>
-          <h3>Rick & Morty</h3>
-          <StyledP>React and pure Javascript</StyledP>
-          <StyledA href="/a">View site</StyledA>
-          <StyledBack>
-            <a href="https://github.com/mariehposa" title="github profile">
-              <img src={github} alt="github logo" />
-              <p>View on github</p>
-            </a>
-          </StyledBack>
+          <StyledBackAll>
+            <h3>Rick & Morty</h3>
+            <StyledP>React and pure Javascript</StyledP>
+            <StyledA href="/a">View site</StyledA>
+            <StyledBack>
+              <a href="https://github.com/mariehposa" title="github profile">
+                <img src={github} alt="github logo" />
+                <p>View on github</p>
+              </a>
+            </StyledBack>
+          </StyledBackAll>
         </BackSide>
       </Flippy>
 
@@ -149,15 +157,17 @@ export function EReact() {
           />
         </FrontSide>
         <BackSide>
-          <h3>Hair Care</h3>
-          <StyledP>React and pure Javascript</StyledP>
-          <StyledA href="/a">View site</StyledA>
-          <StyledBack>
-            <a href="https://github.com/mariehposa" title="github profile">
-              <img src={github} alt="github logo" />
-              <p>View on github</p>
-            </a>
-          </StyledBack>
+          <StyledBackAll>
+            <h3>Hair Care</h3>
+            <StyledP>React and pure Javascript</StyledP>
+            <StyledA href="/a">View site</StyledA>
+            <StyledBack>
+              <a href="https://github.com/mariehposa" title="github profile">
+                <img src={github} alt="github logo" />
+                <p>View on github</p>
+              </a>
+            </StyledBack>
+          </StyledBackAll>
         </BackSide>
       </Flippy>
     </>
@@ -180,15 +190,17 @@ export function Redux() {
           />
         </FrontSide>
         <BackSide>
-          <h3>Split the Bill</h3>
-          <StyledP>React Redux</StyledP>
-          <StyledA href="/a">View site</StyledA>
-          <StyledBack>
-            <a href="https://github.com/mariehposa" title="github profile">
-              <img src={github} alt="github logo" />
-              <p>View on github</p>
-            </a>
-          </StyledBack>
+          <StyledBackAll>
+            <h3>Split the Bill</h3>
+            <StyledP>React Redux</StyledP>
+            <StyledA href="/a">View site</StyledA>
+            <StyledBack>
+              <a href="https://github.com/mariehposa" title="github profile">
+                <img src={github} alt="github logo" />
+                <p>View on github</p>
+              </a>
+            </StyledBack>
+          </StyledBackAll>
         </BackSide>
       </Flippy>
     </>
@@ -211,15 +223,17 @@ export function Node() {
           />
         </FrontSide>
         <BackSide>
-          <h3>Essentialism</h3>
-          <StyledP>Node.js and Postgres</StyledP>
-          <StyledA href="/a">View site</StyledA>
-          <StyledBack>
-            <a href="https://github.com/mariehposa" title="github profile">
-              <img src={github} alt="github logo" />
-              <p>View on github</p>
-            </a>
-          </StyledBack>
+          <StyledBackAll>
+            <h3>Essentialism</h3>
+            <StyledP>Node.js and Postgres</StyledP>
+            <StyledA href="/a">View site</StyledA>
+            <StyledBack>
+              <a href="https://github.com/mariehposa" title="github profile">
+                <img src={github} alt="github logo" />
+                <p>View on github</p>
+              </a>
+            </StyledBack>
+          </StyledBackAll>
         </BackSide>
       </Flippy>
     </>

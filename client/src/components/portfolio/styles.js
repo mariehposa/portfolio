@@ -63,12 +63,18 @@ export const StyledP = styled.p`
   color: #e31b6d;
 `;
 
+export const StyledBackAll = styled.div`
+display: flex;
+flex-direction: column;
+`
+
 export const StyledBack = styled.div`
   padding-top: 1rem;
   border: 1px solid #e31b6d;
   width: 40%;
-  margin-top: 3rem;
-  align-self: center;
+  margin-top: 2rem;
+  border-radius: .3rem;
+  align-self: flex-end;
 
   &:hover {
     background: #e31b6d;

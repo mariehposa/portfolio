@@ -51,14 +51,14 @@ export const StyleField = styled(Field)`
 `;
 
 export const StyledButton = styled.button`
-  width: 30%;
+  width: 23%;
   padding: 1rem;
   color: white;
   border: 2px solid white;
   font-size: 1.1rem;
   background: #252934;
   margin-top: .3rem;
-  flex: flex-end;
+  align-self: flex-end;
 
   &:hover {
     background: #04c2c9;
