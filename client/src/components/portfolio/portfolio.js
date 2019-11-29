@@ -1,25 +1,20 @@
 import React from "react";
 import { Route } from "react-router-dom";
-import Flippy, { FrontSide, BackSide } from "react-flippy";
 import split from "./images/splitTheBill.png";
 import chef from "./images/chefPortfolio.png";
 import hairCare from "./images/hairCare.png";
 import rickMorty from "./images/rickAndMorty.png";
 import starwars from "./images/starwars.png";
 import essentialism from "./images/essentialism.png";
-import github from "./images/github.png";
 import {
   StyledAll,
   StyledNav,
   StyledDiv,
   StyledLink,
-  StyledTotal,
-  StyledP,
-  StyledBack,
-  StyledA,
-  StyledBackAll
+  StyledTotal
 } from "./styles";
 
+import CustomFlippy from "./ProjectFlippy";
 
 export default function Portfolio() {
   return (
@@ -57,32 +52,13 @@ function All() {
 export function Html() {
   return (
     <>
-      <Flippy
-        flipOnHover={true}
-        flipDirection="horizontal"
-        style={{ width: "350px", height: "300px" }}
-      >
-        <FrontSide>
-          <img
-            src={chef}
-            alt="chef-portfolio"
-            style={{ width: "320px", height: "280px" }}
-          />
-        </FrontSide>
-        <BackSide>
-          <StyledBackAll>
-            <h3>Chef Portfolio</h3>
-            <StyledP>Html and Css</StyledP>
-            <StyledA href="/a">View site</StyledA>
-            <StyledBack>
-              <a href="https://github.com/mariehposa" title="github profile">
-                <img src={github} alt="github logo" />
-                <p>View on github</p>
-              </a>
-            </StyledBack>
-          </StyledBackAll>
-        </BackSide>
-      </Flippy>
+      <CustomFlippy
+        projectImage={chef}
+        imageAlt="Chef-Portfolio"
+        projectTitle="Chef Portfolio"
+        projectStack="HTML and CSS"
+        gitHubLink="https://github.com/mariehposa/chef-portfolio"
+      />
     </>
   );
 }
@@ -90,86 +66,27 @@ export function Html() {
 export function EReact() {
   return (
     <>
-      <Flippy
-        flipOnHover={true}
-        flipDirection="horizontal"
-        style={{ width: "350px", height: "300px" }}
-      >
-        <FrontSide>
-          <img
-            src={starwars}
-            alt="starwars"
-            style={{ width: "320px", height: "280px" }}
-          />
-        </FrontSide>
-        <BackSide>
-          <StyledBackAll>
-            <h3>Starwars</h3>
-            <StyledP>React and pure Javascript</StyledP>
-            <StyledA href="/a">View site</StyledA>
-            <StyledBack>
-              <a href="https://github.com/mariehposa" title="github profile">
-                <img src={github} alt="github logo" />
-                <p>View on github</p>
-              </a>
-            </StyledBack>
-          </StyledBackAll>
-        </BackSide>
-      </Flippy>
-
-      <Flippy
-        flipOnHover={true}
-        flipDirection="horizontal"
-        style={{ width: "350px", height: "300px" }}
-      >
-        <FrontSide>
-          <img
-            src={rickMorty}
-            alt="Rick and Morty"
-            style={{ width: "320px", height: "280px" }}
-          />
-        </FrontSide>
-        <BackSide>
-          <StyledBackAll>
-            <h3>Rick & Morty</h3>
-            <StyledP>React and pure Javascript</StyledP>
-            <StyledA href="/a">View site</StyledA>
-            <StyledBack>
-              <a href="https://github.com/mariehposa" title="github profile">
-                <img src={github} alt="github logo" />
-                <p>View on github</p>
-              </a>
-            </StyledBack>
-          </StyledBackAll>
-        </BackSide>
-      </Flippy>
-
-      <Flippy
-        flipOnHover={true}
-        flipDirection="horizontal"
-        style={{ width: "350px", height: "300px" }}
-      >
-        <FrontSide>
-          <img
-            src={hairCare}
-            alt="Hair Care"
-            style={{ width: "320px", height: "280px" }}
-          />
-        </FrontSide>
-        <BackSide>
-          <StyledBackAll>
-            <h3>Hair Care</h3>
-            <StyledP>React and pure Javascript</StyledP>
-            <StyledA href="/a">View site</StyledA>
-            <StyledBack>
-              <a href="https://github.com/mariehposa" title="github profile">
-                <img src={github} alt="github logo" />
-                <p>View on github</p>
-              </a>
-            </StyledBack>
-          </StyledBackAll>
-        </BackSide>
-      </Flippy>
+      <CustomFlippy
+        projectImage={starwars}
+        imageAlt="StarWars"
+        projectTitle="StarWars"
+        projectStack="React and pure Javascript"
+        gitHubLink="https://github.com/mariehposa/Sprint-Challenge-React-Wars"
+      />
+      <CustomFlippy
+        projectImage={rickMorty}
+        imageAlt="Rick and Morty"
+        projectTitle="Rick and Morty"
+        projectStack="React and pure Javascript"
+        gitHubLink="https://github.com/mariehposa/Sprint-Challenge-Single-Page-Apps"
+      />
+      <CustomFlippy
+        projectImage={hairCare}
+        imageAlt="Hair Care"
+        projectTitle="Hair Care"
+        projectStack="React and pure Javascript"
+        gitHubLink="https://github.com/mariehposa/HairCare/tree/hosting"
+      />
     </>
   );
 }
@@ -177,32 +94,13 @@ export function EReact() {
 export function Redux() {
   return (
     <>
-      <Flippy
-        flipOnHover={true}
-        flipDirection="horizontal"
-        style={{ width: "350px", height: "300px" }}
-      >
-        <FrontSide>
-          <img
-            src={split}
-            alt="Split the Bill"
-            style={{ width: "320px", height: "280px" }}
-          />
-        </FrontSide>
-        <BackSide>
-          <StyledBackAll>
-            <h3>Split the Bill</h3>
-            <StyledP>React Redux</StyledP>
-            <StyledA href="/a">View site</StyledA>
-            <StyledBack>
-              <a href="https://github.com/mariehposa" title="github profile">
-                <img src={github} alt="github logo" />
-                <p>View on github</p>
-              </a>
-            </StyledBack>
-          </StyledBackAll>
-        </BackSide>
-      </Flippy>
+      <CustomFlippy
+        projectImage={split}
+        imageAlt="Split the Bill"
+        projectTitle="Split the Bill"
+        projectStack="React Redux"
+        gitHubLink="https://github.com/mariehposa/Split-the-bill"
+      />
     </>
   );
 }
@@ -210,32 +108,13 @@ export function Redux() {
 export function Node() {
   return (
     <>
-      <Flippy
-        flipOnHover={true}
-        flipDirection="horizontal"
-        style={{ width: "350px", height: "300px" }}
-      >
-        <FrontSide>
-          <img
-            src={essentialism}
-            alt="Essentialism"
-            style={{ width: "320px", height: "280px" }}
-          />
-        </FrontSide>
-        <BackSide>
-          <StyledBackAll>
-            <h3>Essentialism</h3>
-            <StyledP>Node.js and Postgres</StyledP>
-            <StyledA href="/a">View site</StyledA>
-            <StyledBack>
-              <a href="https://github.com/mariehposa" title="github profile">
-                <img src={github} alt="github logo" />
-                <p>View on github</p>
-              </a>
-            </StyledBack>
-          </StyledBackAll>
-        </BackSide>
-      </Flippy>
+      <CustomFlippy
+        projectImage={essentialism}
+        imageAlt="Essentialism"
+        projectTitle="Essentialism"
+        projectStack="Node.js and PostgreSQL"
+        gitHubLink="https://github.com/essentialism-11-2019/mariam-server"
+      />
     </>
   );
 }
