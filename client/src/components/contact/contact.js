@@ -1,7 +1,8 @@
 import React from 'react';
-import { Formik, Form, ErrorMessage, Field } from 'formik';
+import { Formik, ErrorMessage } from 'formik';
 import * as yup from 'yup';
 import axios from 'axios';
+import { StyledAll, StyledDiv, StyleField, StyleForm, StyledButton } from './styles';
 
 const contactUrl = 'https://mariam-portfolio-backend.herokuapp.com/api/contact'
 
@@ -34,11 +35,14 @@ export default function Contact () {
     }
 
     return (
-        <div id={'contact'}>
-            <h3>Contact</h3>
+        <StyledAll id={'contact'}>
+            <StyledDiv>
+                <h2>CONTACT</h2>
+                <div></div>
+            </StyledDiv>
             <p>Have a question or minding a project? <span>Let's talk!</span></p>
             <ContactForm  onSubmitButton={onSubmitButton}/>
-        </div>
+        </StyledAll>
     );
 }
 
@@ -74,18 +78,18 @@ function ContactForm ({onSubmitButton}) {
                 onsubmit={onSubmitButton}
                 render={props => {
                     return (
-                        <Form>
-                            <Field name="name" type="text" placeholder="Name" />
+                        <StyleForm>
+                            <StyleField name="name" type="text" placeholder="Name" />
                             <ErrorMessage name="name" component="div" />
                             <br />
-                            <Field name="email" type="email" placeholder="Email" />
+                            <StyleField name="email" type="email" row={3} placeholder="Email" />
                             <ErrorMessage name="email" component="div" />
                             <br />
-                            <Field name="message" type="text" placeholder="Message" />
+                            <StyleField name="message" type="text" component="textarea" rows={8} placeholder="Message" />
                             <ErrorMessage name="message" component="div" />
                             <br />
-                            <button type="submit">Submit</button>
-                        </Form>
+                            <StyledButton type="submit">Submit</StyledButton>
+                        </StyleForm>
                     )
                 }}
             />
