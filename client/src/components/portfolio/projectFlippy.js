@@ -35,13 +35,13 @@ export default ({
           <StyledP>{projectStack}</StyledP>
           <div>
             <StyledBack>
-              <a href={websiteLink} title="View Site">
+              <a href={websiteLink} target="_blank" title="View Site">
                 <img src={domain} alt="domain logo" />
                 <p>View Live Site</p>
               </a>
             </StyledBack>
             <StyledBack>
-              <a href={gitHubLink} title="github profile">
+              <a href={gitHubLink} target="_blank" title="github profile">
                 <img src={github} alt="github logo" />
                 <p>View on github</p>
               </a>
