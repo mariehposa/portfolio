@@ -66,6 +66,11 @@ export const StyledP = styled.p`
 export const StyledBackAll = styled.div`
 display: flex;
 flex-direction: column;
+
+div {
+  display: flex;
+  justify-content: space-between;
+}
 `
 
 export const StyledBack = styled.div`
@@ -92,6 +97,12 @@ export const StyledBack = styled.div`
       &:hover {
         color: #ffffff;
       }
+    }
+
+    img {
+      /* align-self: center; */
+      /* border: 1px solid black; */
+      margin-left: .8rem
     }
   }
 `;
