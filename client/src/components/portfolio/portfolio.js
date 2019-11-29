@@ -14,7 +14,7 @@ import {
   StyledTotal
 } from "./styles";
 
-import CustomFlippy from "./ProjectFlippy";
+import CustomFlippy from "./projectFlippy";
 
 export default function Portfolio() {
   return (
