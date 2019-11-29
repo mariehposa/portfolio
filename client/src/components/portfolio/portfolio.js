@@ -5,6 +5,8 @@ import chef from "./images/chefPortfolio.png";
 import hairCare from "./images/hairCare.png";
 import rickMorty from "./images/rickAndMorty.png";
 import starwars from "./images/starwars.png";
+import flora from "./images/flora.png";
+import robot from "./images/robot.png";
 import essentialism from "./images/essentialism.png";
 import {
   StyledAll,
@@ -68,6 +70,22 @@ export function EReact() {
   return (
     <>
       <CustomFlippy
+        projectImage={flora}
+        imageAlt="flora landing page"
+        projectTitle="Flora landing page"
+        projectStack="React and pure Javascript"
+        gitHubLink="https://github.com/mariehposa/flora-landing-page"
+        websiteLink="https://flora-landing-page.now.sh/"
+      />
+      <CustomFlippy
+        projectImage={robot}
+        imageAlt="Monster Robots"
+        projectTitle="Monster Robots"
+        projectStack="React and pure Javascript"
+        gitHubLink="https://github.com/mariehposa/monsters-robot/tree/master"
+        websiteLink="https://mariehposa.github.io/monsters-robot/"
+      />
+      <CustomFlippy
         projectImage={starwars}
         imageAlt="StarWars"
         projectTitle="StarWars"
@@ -76,20 +94,20 @@ export function EReact() {
         websiteLink="https://starwars.mariehposa.now.sh/"
       />
       <CustomFlippy
-        projectImage={rickMorty}
-        imageAlt="Rick and Morty"
-        projectTitle="Rick and Morty"
-        projectStack="React and pure Javascript"
-        gitHubLink="https://github.com/mariehposa/Sprint-Challenge-Single-Page-Apps"
-        websiteLink="https://react-redux-kktstb7je.now.sh/"
-      />
-      <CustomFlippy
         projectImage={hairCare}
         imageAlt="Hair Care"
         projectTitle="Hair Care"
         projectStack="React and pure Javascript"
         gitHubLink="https://github.com/mariehposa/HairCare/tree/hosting"
         websiteLink="https://sleepy-thompson-659f81.netlify.com/"
+      />
+      <CustomFlippy
+        projectImage={rickMorty}
+        imageAlt="Rick and Morty"
+        projectTitle="Rick and Morty"
+        projectStack="React and pure Javascript"
+        gitHubLink="https://github.com/mariehposa/Sprint-Challenge-Single-Page-Apps"
+        websiteLink="https://react-redux-kktstb7je.now.sh/"
       />
     </>
   );
@@ -104,7 +122,7 @@ export function Redux() {
         projectTitle="Split the Bill"
         projectStack="React Redux"
         gitHubLink="https://github.com/mariehposa/Split-the-bill"
-        websiteLink="split-the-bill.mariehposa.now.sh"
+        websiteLink="https://split-the-bill.mariehposa.now.sh/"
       />
     </>
   );

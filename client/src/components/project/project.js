@@ -24,7 +24,7 @@ export default function Project() {
       <Slide {...properties} style={{width: "39rem", height: "28rem", margin: "4rem 0" }}>
         <StyledSlide>
           <img src={ecommerce} alt="E-commerce"/>
-          <h3>e-commerce</h3>
+          <h3>E-commerce Website</h3>
           <dt>2019</dt>
         </StyledSlide>
         <StyledSlide>
@@ -37,7 +37,7 @@ export default function Project() {
             src={construction}
             alt="construction"
                     />
-          <h3>Construction</h3>
+          <h3>Construction Website</h3>
           <dt>2020</dt>
         </StyledSlide>
         <StyledSlide>
