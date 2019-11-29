@@ -2,6 +2,7 @@ import React from 'react';
 import { Formik, ErrorMessage } from 'formik';
 import * as yup from 'yup';
 import axios from 'axios';
+import swal from 'sweetalert';
 import { StyledAll, StyledDiv, StyleField, StyleForm, StyledButton } from './styles';
 
 const contactUrl = 'https://mariam-portfolio-backend.herokuapp.com/api/contact'
@@ -22,6 +23,14 @@ export default function Contact () {
         })
         .then(res => {
             console.log(res.data)
+            if (res.data) {
+                swal({
+                title: 'Success!',
+                icon: 'success',
+                text: 'Message sent.',
+                button: 'OK',                 
+                });
+            }
         })
         .catch(error => {
             console.log(error)
