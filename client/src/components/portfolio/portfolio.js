@@ -14,7 +14,7 @@ import {
   StyledTotal
 } from "./styles";
 
-import CustomFlippy from "./projectFlippy";
+import CustomFlippy from "./ProjectFlippy";
 
 export default function Portfolio() {
   return (
@@ -58,6 +58,7 @@ export function Html() {
         projectTitle="Chef Portfolio"
         projectStack="HTML and CSS"
         gitHubLink="https://github.com/mariehposa/chef-portfolio"
+        websiteLink="https://goofy-perlman-9a4318.netlify.com/"
       />
     </>
   );
@@ -72,6 +73,7 @@ export function EReact() {
         projectTitle="StarWars"
         projectStack="React and pure Javascript"
         gitHubLink="https://github.com/mariehposa/Sprint-Challenge-React-Wars"
+        websiteLink="https://starwars.mariehposa.now.sh/"
       />
       <CustomFlippy
         projectImage={rickMorty}
@@ -79,6 +81,7 @@ export function EReact() {
         projectTitle="Rick and Morty"
         projectStack="React and pure Javascript"
         gitHubLink="https://github.com/mariehposa/Sprint-Challenge-Single-Page-Apps"
+        websiteLink="https://react-redux-kktstb7je.now.sh/"
       />
       <CustomFlippy
         projectImage={hairCare}
@@ -86,6 +89,7 @@ export function EReact() {
         projectTitle="Hair Care"
         projectStack="React and pure Javascript"
         gitHubLink="https://github.com/mariehposa/HairCare/tree/hosting"
+        websiteLink="https://sleepy-thompson-659f81.netlify.com/"
       />
     </>
   );
@@ -100,6 +104,7 @@ export function Redux() {
         projectTitle="Split the Bill"
         projectStack="React Redux"
         gitHubLink="https://github.com/mariehposa/Split-the-bill"
+        websiteLink="split-the-bill.mariehposa.now.sh"
       />
     </>
   );
@@ -114,6 +119,7 @@ export function Node() {
         projectTitle="Essentialism"
         projectStack="Node.js and PostgreSQL"
         gitHubLink="https://github.com/essentialism-11-2019/mariam-server"
+        websiteLink="https://documenter.getpostman.com/view/9533421/SW7Z4UGG?version=latest"
       />
     </>
   );

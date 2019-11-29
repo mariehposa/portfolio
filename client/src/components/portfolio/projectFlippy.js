@@ -13,7 +13,8 @@ export default ({
   imageAlt,
   projectTitle,
   projectStack,
-  gitHubLink
+  gitHubLink,
+  websiteLink
 }) => {
   return (
     <Flippy
@@ -34,7 +35,7 @@ export default ({
           <StyledP>{projectStack}</StyledP>
           <div>
             <StyledBack>
-              <a href='/a' title="View Site">
+              <a href={websiteLink} title="View Site">
                 <img src={domain} alt="domain logo" />
                 <p>View Live Site</p>
               </a>
