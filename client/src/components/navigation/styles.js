@@ -7,7 +7,7 @@ export const StyledNav = styled.div`
   width: 100%;
   background: #1b242f;
   border-bottom: 3px solid #04c2c9;
-  padding: .5rem;
+  padding: 0.5rem;
   padding-left: 4rem;
 `;
 
@@ -23,6 +23,7 @@ export const StyledLink = styled(NavLink)`
   }
 
   &.active {
-   color: #e31b6d;
+    color: #e31b6d;
   }
 `;
+

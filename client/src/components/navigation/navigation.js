@@ -2,7 +2,6 @@ import React from "react";
 import { StyledNav, StyledLink } from "./styles";
 import "../../App.css";
 import { DarkMode } from "../hooks/darkMode";
-import settings from './logo/settings.png';
 
 export default function Navigation() {
   const [darkMode, setDarkMode] = DarkMode(false);
@@ -36,14 +35,8 @@ export default function Navigation() {
       <StyledLink onClick={() => navigate("contact")} to="/contact">
         CONTACT
       </StyledLink>
-      {/* <div>
-        <div onClick={toggleMode}>
-          <img src={settings} alt="mode" />
-        </div>
-      </div> */}
-      <div className="dark-mode__toggle">
-        <div
-          onClick={toggleMode}
+      <div className="darkModeToggle">
+        <div onClick={toggleMode}
           className={darkMode ? 'toggle toggled' : 'toggle'}
         />
       </div>
