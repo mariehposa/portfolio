@@ -55,34 +55,10 @@ const skills = [
 ];
 
 const colors = {
-  bar: {
-    hue: 32,
-    saturation: 50,
-    level: {
-      minimum: 30,
-      maximum: 70
-    }
-  },
-  title: {
-    text: {
-      hue: 45,
-      saturation: {
-        minimum: 30,
-        maximum: 70
-      },
-      level: 50
-    },
-    background: {
-      hue: 30,
-      saturation: {
-        minimum: 30,
-        maximum: 70
-      },
-      level: {
-        minimum: 0,
-        maximum: 50
-      }
-    }
+  "bar": "#04C2C9",
+  "title": {
+    "text": "#ffffff",
+    "background": "#04c2c9"
   }
 };
 
