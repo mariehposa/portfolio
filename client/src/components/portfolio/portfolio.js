@@ -34,6 +34,7 @@ export default function Portfolio() {
       </StyledNav>
       <StyledTotal>
         <Route exact path="/" component={All} />
+        <Route exact path="/portfolio" component={All} />
         <Route path="/portfolio/html" component={Html} />
         <Route path="/portfolio/react" component={EReact} />
         <Route path="/portfolio/redux" component={Redux} />

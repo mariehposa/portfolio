@@ -56,6 +56,7 @@ export const StyledLink = styled(Link)`
 export const StyledTotal = styled.div`
   display: flex;
   flex-direction: row;
+  justify-content: center;
   flex-wrap: wrap;
 `;
 
@@ -100,8 +101,6 @@ export const StyledBack = styled.div`
     }
 
     img {
-      /* align-self: center; */
-      /* border: 1px solid black; */
       margin-left: .8rem
     }
   }
