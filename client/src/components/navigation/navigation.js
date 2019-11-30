@@ -20,21 +20,23 @@ export default function Navigation() {
 
   return (
     <StyledNav>
-      <StyledLink onClick={() => navigate("header")} exact to="/">
-        HOME
-      </StyledLink>
-      <StyledLink onClick={() => navigate("about")} to="/about">
-        ABOUT
-      </StyledLink>
-      <StyledLink onClick={() => navigate("portfolio")} to="/portfolio">
-        PORTFOLIO
-      </StyledLink>
-      <StyledLink onClick={() => navigate("project")} to="/project">
-        PROJECTS
-      </StyledLink>
-      <StyledLink onClick={() => navigate("contact")} to="/contact">
-        CONTACT
-      </StyledLink>
+      <div>
+        <StyledLink onClick={() => navigate("header")} exact to="/">
+          HOME
+        </StyledLink>
+        <StyledLink onClick={() => navigate("about")} to="/about">
+          ABOUT
+        </StyledLink>
+        <StyledLink onClick={() => navigate("portfolio")} to="/portfolio">
+          PORTFOLIO
+        </StyledLink>
+        <StyledLink onClick={() => navigate("project")} to="/project">
+          PROJECTS
+        </StyledLink>
+        <StyledLink onClick={() => navigate("contact")} to="/contact">
+          CONTACT
+        </StyledLink>
+      </div>
       <div className="darkModeToggle">
         <div onClick={toggleMode}
           className={darkMode ? 'toggle toggled' : 'toggle'}
