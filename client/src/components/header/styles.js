@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import image from "./img/header.jpg";
+import { device } from "../mediaQueries";
 
 export const HeaderStyle = styled.div`
   background-image: url(${image});
@@ -33,6 +34,8 @@ export const FancyDiv = styled.div`
   color: paleturquoise;
   align-items: center;
 
+  
+
   span {
     display: flex;
     align-items: center;
@@ -47,3 +50,7 @@ export const FancyDiv = styled.div`
     background: palevioletred;
   }
 `;
+
+// @media ${device.laptop} {
+//     max-width: 800px;
+// }
