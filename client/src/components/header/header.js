@@ -1,6 +1,7 @@
 import React from "react";
 import Particles from "react-particles-js";
-import '../../App.css'
+import '../../App.css';
+import arrow from './img/arrow.png';
 import { HeaderStyle, Styledtext, FancyDiv } from "./styles";
 
 export default function Header() {
@@ -12,7 +13,10 @@ export default function Header() {
           <span> Mariam Adedeji.</span>
         </p>
         <p>I'm a full stack web developer.</p>
-        <FancyDiv> View my work</FancyDiv>
+        <FancyDiv> 
+          <span><p>View my work</p> 
+          <img src={arrow} alt="arrow-down"/></span>
+          </FancyDiv>
       </Styledtext>
 
       <Particles
@@ -38,11 +42,6 @@ export default function Header() {
                   "polygon": {
                     "nb_sides": 5
                   },
-                //   "image": {
-                //     "src": "http://wiki.lexisnexis.com/academic/images/f/fb/Itunes_podcast_icon_300.jpg",
-                //     "width": 100,
-                //     "height": 100
-                //   }
                 },
                 "opacity": {
                   "value": 0.5,
