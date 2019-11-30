@@ -5,7 +5,19 @@ import responsive from "./img/002-responsive.png";
 import intuitive from "./img/004-lightbulb.png";
 import dynamic from "./img/006-startup.png";
 import owner from "./img/owner.jpg";
-import { StyledAll, StyledDiv, StyledProps, AboutMe, StyledMe, StyledChart, StyledText } from "./styles";
+import "../../App.css";
+import {
+  StyledAll,
+  StyledDiv,
+  StyledProps,
+  AboutMe,
+  StyledMe,
+  StyledChart,
+  StyledText,
+  HexaTop,
+  HexaMid,
+  HexaBottom
+} from "./styles";
 
 const skills = [
   {
@@ -83,22 +95,38 @@ export default function About() {
       </StyledDiv>
       <StyledProps>
         <div>
-          <img src={fast} alt="fast" />
+          <HexaTop />
+          <HexaMid>
+            <img src={fast} alt="fast" />
+          </HexaMid>
+          <HexaBottom />
           <StyledText>Fast</StyledText>
           <p>Fast load times and lag free interaction, my highest priority.</p>
         </div>
         <div>
+        <HexaTop />
+          <HexaMid>
           <img src={responsive} alt="responsive" />
+          </HexaMid>
+          <HexaBottom />
           <StyledText>Responsive</StyledText>
           <p>My layouts will work on any device, big or small.</p>
         </div>
         <div>
+        <HexaTop />
+          <HexaMid>
           <img src={intuitive} alt="intuitive" />
+          </HexaMid>
+          <HexaBottom />
           <StyledText>Intuitive</StyledText>
           <p>My layouts will work on any device, big or small.</p>
         </div>
         <div>
+        <HexaTop />
+          <HexaMid>
           <img src={dynamic} alt="dynamic" />
+          </HexaMid>
+          <HexaBottom />
           <StyledText>Dynamic</StyledText>
           <p>
             Websites don't have to be static, I love making pages come to life.
@@ -111,11 +139,11 @@ export default function About() {
           <img src={owner} alt="mariam adedeji" />
           <StyledText>Who's this lady?</StyledText>
           <p>
-            I'm a <span>full-stack Web developer</span> with excellent communication skills
-            and vast experience. I like to create beautiful and engaging user
-            interfaces with HTML5, CSS3, javascript, Front end frameworks like
-            react, nodes and postgres for backend. <span>Let's make something
-            special... Cheers!!!</span>
+            I'm a <span>full-stack Web developer</span> with excellent
+            communication skills and vast experience. I like to create beautiful
+            and engaging user interfaces with HTML5, CSS3, javascript, Front end
+            frameworks like react, nodes and postgres for backend.{" "}
+            <span>Let's make something special... Cheers!!!</span>
           </p>
         </StyledMe>
         <StyledChart>

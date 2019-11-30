@@ -30,7 +30,7 @@ export const StyledProps = styled.div`
     font-family: 'Quicksand', sans-serif;
     text-align: center;
 
-    div {
+    >div {
         margin: 2rem 0 0 4rem;
 
         img{
@@ -73,3 +73,26 @@ export const StyledText = styled.p`
     font-weight: bold;
     font-size: 1.2rem;
 `
+
+export const HexaTop = styled.div`
+  width: 0;
+  margin: 0 auto;
+  border-bottom: 30px solid #64c7cc;
+  border-left: 52px solid transparent;
+  border-right: 52px solid transparent;
+`;
+
+export const HexaMid = styled.div`
+  width: 104px;
+  margin: 0 auto;
+  height: 60px;
+  background-color: #64c7cc;
+`;
+
+export const HexaBottom = styled.div`
+  width: 0;
+  margin: 0 auto;
+  border-top: 30px solid #64c7cc;
+  border-left: 52px solid transparent;
+  border-right: 52px solid transparent;
+`;

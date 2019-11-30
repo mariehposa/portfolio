@@ -4,6 +4,7 @@ import * as yup from 'yup';
 import axios from 'axios';
 import swal from 'sweetalert';
 import { StyledAll, StyledDiv, StyleField, StyleForm, StyledButton } from './styles';
+import '../../App.css'
 
 const contactUrl = 'https://mariam-portfolio-backend.herokuapp.com/api/contact'
 
@@ -46,6 +47,7 @@ export default function Contact () {
             </StyledDiv>
             <p>Have a question or minding a project? <span>Let's talk!</span></p>
             <ContactForm  onSubmitButton={onSubmitButton}/>
+            <div className="hexagon"></div>
         </StyledAll>
     );
 }
