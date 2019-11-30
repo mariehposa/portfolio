@@ -47,7 +47,6 @@ export default function Contact () {
             </StyledDiv>
             <p>Have a question or minding a project? <span>Let's talk!</span></p>
             <ContactForm  onSubmitButton={onSubmitButton}/>
-            <div className="hexagon"></div>
         </StyledAll>
     );
 }
