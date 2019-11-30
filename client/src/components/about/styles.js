@@ -6,6 +6,10 @@ export const StyledAll = styled.div`
   flex-direction: column;
   justify-content: center;
   color: #444649;
+
+  @media (min-width: 768px) {
+    padding: 5rem 1rem;
+  }
 `;
 
 export const StyledDiv = styled.div`
@@ -14,7 +18,7 @@ export const StyledDiv = styled.div`
 
   h2 {
     font-size: 2.5rem;
-    font-family: 'Changa', sans-serif;
+    font-family: "Changa", sans-serif;
   }
 
   div {
@@ -22,57 +26,74 @@ export const StyledDiv = styled.div`
     height: 0.2rem;
     margin-left: 1.3rem;
     background: #444649;
+
+    @media (min-width: 768px) {
+      margin-left: 2rem;
+    }
   }
 `;
 
 export const StyledProps = styled.div`
-    display: flex;
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;
+  display: flex;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
 
-    >div {
-        margin: 2rem 0 0 4rem;
+  > div {
+    margin: 2rem 0 0 4rem;
 
-        img{
-            align-self: center;
-        }
-        
-        h3{
-            font-weight: bold;
-        }
+    @media (min-width: 768px) {
+      margin: 2rem 0 0 1rem;
     }
-`
+
+    img {
+      align-self: center;
+    }
+
+    h3 {
+      font-weight: bold;
+    }
+  }
+`;
 
 export const AboutMe = styled.div`
-    display: flex;
-    padding: 2rem 0;
-`
+  display: flex;
+  padding: 2rem 0;
+`;
 
 export const StyledMe = styled.div`
-    width: 45%;
-    margin-left: 4rem;
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;
+  width: 45%;
+  margin-left: 4rem;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
 
-    img{
-        width: 50%;
-        box-shadow: 7px 7px 0px 0px #04c2c9;
-    }
+  @media (min-width: 768px) {
+    margin-left: 1rem;
+  }
 
-    span {
-        color: #04c2c9;
-    }
-`
+  img {
+    width: 50%;
+    box-shadow: 7px 7px 0px 0px #04c2c9;
+  }
+
+  span {
+    color: #04c2c9;
+  }
+`;
 
 export const StyledChart = styled.div`
-    width: 55%;
-    margin-left: 4rem;
-`
+  width: 55%;
+  margin-left: 4rem;
+
+  @media (min-width: 768px) {
+    width: 50%;
+    margin-left: 1rem;
+  }
+`;
 
 export const StyledText = styled.p`
-    font-weight: bold;
-    font-size: 1.2rem;
-`
+  font-weight: bold;
+  font-size: 1.2rem;
+`;
 
 export const HexaTop = styled.div`
   width: 0;

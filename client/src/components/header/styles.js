@@ -34,7 +34,9 @@ export const FancyDiv = styled.div`
   color: paleturquoise;
   align-items: center;
 
-  
+  @media (min-width: 768px) {
+    width: 20%;
+  }
 
   span {
     display: flex;

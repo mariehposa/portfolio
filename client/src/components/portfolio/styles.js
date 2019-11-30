@@ -8,6 +8,10 @@ export const StyledAll = styled.div`
   align-items: center;
   background: #f5f5f5;
   text-align: center;
+
+  @media (min-width: 768px) {
+    padding: 5rem 1rem;
+  }
 `;
 
 export const StyledDiv = styled.div`
