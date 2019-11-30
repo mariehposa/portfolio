@@ -11,21 +11,21 @@ export const HeaderStyle = styled.div`
 `;
 
 export const Styledtext = styled.div`
-  >p {
+  > p {
     color: white;
     font-size: 2.4rem;
     font-family: "Noto Sans KR", sans-serif;
     line-height: 1rem;
 
     span {
-	  color: #e31b6d;
-	  font-weight: bolder;
+      color: #e31b6d;
+      font-weight: bolder;
     }
   }
-`
+`;
 
 export const FancyDiv = styled.div`
-display: flex;
+  display: flex;
   width: 15%;
   padding: 0.2rem 0;
   margin: auto;
@@ -34,16 +34,16 @@ display: flex;
   align-items: center;
 
   span {
-	  display: flex;
-	align-items: center;
-	margin: auto;
+    display: flex;
+    align-items: center;
+    margin: auto;
 
-	img {
-		margin-left: .5rem;
-	}
+    img {
+      margin-left: 0.5rem;
+    }
   }
- 	 
+
   &:hover {
-    background: palevioletred
+    background: palevioletred;
   }
 `;
