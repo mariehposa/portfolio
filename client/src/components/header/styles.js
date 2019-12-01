@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import image from "./img/header.jpg";
-import { device } from "../mediaQueries";
 
 export const HeaderStyle = styled.div`
   background-image: url(${image});
@@ -34,7 +33,7 @@ export const FancyDiv = styled.div`
   color: paleturquoise;
   align-items: center;
 
-  @media (min-width: 768px) {
+  @media (max-width: 768px) {
     width: 20%;
   }
 

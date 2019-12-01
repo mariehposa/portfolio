@@ -9,7 +9,7 @@ export const StyledAll = styled.div`
   background: #f5f5f5;
   text-align: center;
 
-  @media (min-width: 768px) {
+  @media (max-width: 768px) {
     padding: 5rem 1rem;
   }
 `;
@@ -29,6 +29,10 @@ export const StyledDiv = styled.div`
     height: 0.2rem;
     margin-left: 3rem;
     background: #444649;
+
+    @media (max-width: 768px) {
+      margin-left: 4rem;
+    }
   }
 `;
 
@@ -69,21 +73,21 @@ export const StyledP = styled.p`
 `;
 
 export const StyledBackAll = styled.div`
-display: flex;
-flex-direction: column;
-
-div {
   display: flex;
-  justify-content: space-between;
-}
-`
+  flex-direction: column;
+
+  div {
+    display: flex;
+    justify-content: space-between;
+  }
+`;
 
 export const StyledBack = styled.div`
   padding-top: 1rem;
   border: 1px solid #e31b6d;
   width: 40%;
   margin-top: 2rem;
-  border-radius: .3rem;
+  border-radius: 0.3rem;
   align-self: flex-end;
 
   &:hover {
@@ -105,7 +109,7 @@ export const StyledBack = styled.div`
     }
 
     img {
-      margin-left: .8rem
+      margin-left: 0.8rem;
     }
   }
 `;
@@ -117,4 +121,4 @@ export const StyledA = styled.a`
   &:hover {
     color: #04c2c9;
   }
-`
+`;
