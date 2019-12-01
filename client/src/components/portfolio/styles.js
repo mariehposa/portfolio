@@ -9,7 +9,7 @@ export const StyledAll = styled.div`
   background: #f5f5f5;
   text-align: center;
 
-  @media (max-width: 768px) {
+  @media (max-width: 800) {
     padding: 5rem 1rem;
   }
 `;
@@ -30,7 +30,7 @@ export const StyledDiv = styled.div`
     margin-left: 3rem;
     background: #444649;
 
-    @media (max-width: 768px) {
+    @media (max-width: 800px) {
       margin-left: 4rem;
     }
   }

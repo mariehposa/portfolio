@@ -7,7 +7,8 @@ export const StyledAll = styled.div`
   justify-content: center;
   color: #444649;
 
-  @media (max-width: 768px) {
+  @media (max-width: 800px
+    ) {
     padding: 5rem 1rem;
   }
 `;
@@ -27,7 +28,8 @@ export const StyledDiv = styled.div`
     margin-left: 1.3rem;
     background: #444649;
 
-    @media (max-width: 768px) {
+    @media (max-width: 800px
+      ) {
       margin-left: 2rem;
     }
   }
@@ -41,7 +43,8 @@ export const StyledProps = styled.div`
   > div {
     margin: 2rem 0 0 4rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 800px
+      ) {
       margin: 2rem 0 0 1rem;
     }
 
@@ -66,7 +69,8 @@ export const StyledMe = styled.div`
   font-family: "Quicksand", sans-serif;
   text-align: center;
 
-  @media (max-width: 768px) {
+  @media (max-width: 800px
+    ) {
     margin-left: 1rem;
   }
 
@@ -84,7 +88,8 @@ export const StyledChart = styled.div`
   width: 55%;
   margin-left: 4rem;
 
-  @media (max-width: 768px) {
+  @media (max-width: 800px
+    ) {
     width: 50%;
     margin-left: 1rem;
   }

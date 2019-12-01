@@ -33,7 +33,7 @@ export const FancyDiv = styled.div`
   color: paleturquoise;
   align-items: center;
 
-  @media (max-width: 768px) {
+  @media (max-width: 800px) {
     width: 20%;
   }
 
@@ -51,7 +51,3 @@ export const FancyDiv = styled.div`
     background: palevioletred;
   }
 `;
-
-// @media ${device.laptop} {
-//     max-width: 800px;
-// }
