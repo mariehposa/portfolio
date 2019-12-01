@@ -22,8 +22,8 @@ export const StyledDiv = styled.div`
     color: #444649;
 
     @media (max-width: 500px) {
-      font-size: 2rem;
-  }
+      font-size: 1.5rem;
+    }
   }
 
   div {
@@ -37,23 +37,27 @@ export const StyledDiv = styled.div`
     }
 
     @media (max-width: 500px) {
-      margin-left: 7rem;
+      margin-left: 6rem;
     }
   }
 `;
 
 export const StyledSlide = styled.div`
-    img {
-        height: 20rem;
-    }
+  img {
+    height: 28rem;
 
-    h3{
-        font-size: 1.1rem;
-        font-family: 'Quicksand', sans-serif;
-        font-weight: bold;
+    @media (max-width: 500px) {
+      height: 18rem;
     }
+  }
 
-    dt {
-        color: #e31b6d;
-    }
-`
+  h3 {
+    font-size: 1.1rem;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+  }
+
+  dt {
+    color: #e31b6d;
+  }
+`;
