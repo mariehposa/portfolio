@@ -8,6 +8,10 @@ export const StyledAll = styled.div`
   text-align: center;
   background: #1B242F;
 
+  @media (max-width: 500px) {
+    padding: 5rem 1rem;
+  }
+
   p {
       color: #8F9AA7;
       font-family: "Quicksand", sans-serif;
@@ -32,6 +36,11 @@ export const StyledA = styled.a`
     text-decoration: none;
     text-align: center;
     align-items: center;
+
+    @media (max-width: 500px) {
+        padding: .5rem;
+        margin: 0 .5rem;
+  }
 
     &:hover {
         background: #04c2c9;
