@@ -9,8 +9,12 @@ export const StyledAll = styled.div`
   background: #f5f5f5;
   text-align: center;
 
-  @media (max-width: 800) {
-    padding: 5rem 0;
+  @media (max-width: 800px) {
+    padding: 5rem 1rem;
+  }
+
+  @media (max-width: 500px) {
+    padding: 3rem 1rem;
   }
 `;
 
@@ -31,6 +35,10 @@ export const StyledDiv = styled.div`
     background: #444649;
 
     @media (max-width: 800px) {
+      margin-left: 4rem;
+    }
+
+    @media (max-width: 500px) {
       margin-left: 4rem;
     }
   }
@@ -58,6 +66,10 @@ export const StyledLink = styled(Link)`
 
   &.active {
     color: #e31b6d;
+  }
+
+  @media (max-width: 500px) {
+    padding: 1rem 0.5rem;
   }
 `;
 
@@ -95,6 +107,10 @@ export const StyledBack = styled.div`
     color: white;
   }
 
+  @media (max-width: 500px) {
+    width: 41%;
+      }
+
   a {
     text-decoration: none;
 
@@ -106,10 +122,18 @@ export const StyledBack = styled.div`
       &:hover {
         color: #ffffff;
       }
+
+      @media (max-width: 500px) {
+        margin-left: 0;
+      }
     }
 
     img {
       margin-left: 0.8rem;
+
+      @media (max-width: 500px) {
+        margin-left: 0;
+      }
     }
   }
 `;
