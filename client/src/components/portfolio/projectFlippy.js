@@ -20,15 +20,15 @@ export default ({
     <Flippy
       flipOnHover={true}
       flipDirection="horizontal"
-      // style={{ width: "350px", height: "300px" }}
-      style={{ width: "300px", height: "300px" }}
+      style={{ width: "350px", height: "300px" }}
+      // style={{ width: "300px", height: "300px" }}
     >
       <FrontSide>
         <img
           src={projectImage}
           alt={imageAlt}
-          // style={{ width: "320px", height: "280px" }}
-          style={{ width: "270px", height: "280px" }}
+          style={{ width: "320px", height: "280px" }}
+          // style={{ width: "270px", height: "280px" }}
         />
       </FrontSide>
       <BackSide>

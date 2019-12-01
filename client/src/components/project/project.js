@@ -22,8 +22,8 @@ export default function Project() {
       <div></div>
       </StyledDiv>
       <Slide {...properties} 
-      // style={{width: "39rem", height: "28rem", margin: "4rem 0" }} >
-      style={{width: "20rem", height: "20rem", margin: "4rem 0" }}>
+      style={{width: "39rem", height: "28rem", margin: "4rem 0" }} >
+      {/* style={{width: "20rem", height: "20rem", margin: "4rem 0" }}> */}
         <StyledSlide>
           <img src={ecommerce} alt="E-commerce"/>
           <h3>E-commerce Website</h3>

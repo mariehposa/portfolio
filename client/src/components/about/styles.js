@@ -83,10 +83,6 @@ export const StyledMe = styled.div`
   font-family: "Quicksand", sans-serif;
   text-align: center;
 
-  @media (max-width: 800px) {
-    margin-left: 1rem;
-  }
-
   @media (max-width: 500px) {
     width: 100%;
     margin-left: 0;
