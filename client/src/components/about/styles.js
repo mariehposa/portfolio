@@ -36,7 +36,7 @@ export const StyledDiv = styled.div`
     }
 
     @media (max-width: 500px) {
-      margin-left: 1.8rem;
+      margin-left: 1.5rem;
     }
   }
 `;

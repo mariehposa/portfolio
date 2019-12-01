@@ -43,6 +43,10 @@ export const StyledDiv = styled.div`
     @media (max-width: 800px) {
       margin-left: 3.5rem;
     }
+
+    @media (max-width: 500px) {
+      margin-left: 1.9rem;
+    }
   }
 `;
 
