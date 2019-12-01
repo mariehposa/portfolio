@@ -24,8 +24,8 @@ export const Styledtext = styled.div`
 
     @media (max-width: 500px) {
       font-size: 1.5rem;
-      line-height: .5rem;
-  }
+      line-height: 0.5rem;
+    }
 
     span {
       color: #e31b6d;

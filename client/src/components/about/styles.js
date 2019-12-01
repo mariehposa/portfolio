@@ -7,9 +7,12 @@ export const StyledAll = styled.div`
   justify-content: center;
   color: #444649;
 
-  @media (max-width: 800px
-    ) {
+  @media (max-width: 800px) {
     padding: 5rem 1rem;
+  }
+
+  @media (max-width: 500px) {
+    padding: 3rem 1rem;
   }
 `;
 
@@ -28,9 +31,12 @@ export const StyledDiv = styled.div`
     margin-left: 1.3rem;
     background: #444649;
 
-    @media (max-width: 800px
-      ) {
-      margin-left: 2rem;
+    @media (max-width: 800px) {
+      margin-left: 1.5rem;
+    }
+
+    @media (max-width: 500px) {
+      margin-left: 1.8rem;
     }
   }
 `;
@@ -41,11 +47,15 @@ export const StyledProps = styled.div`
   text-align: center;
 
   > div {
-    margin: 2rem 0 0 4rem;
+    display: flex;
 
-    @media (max-width: 800px
-      ) {
-      margin: 2rem 0 0 1rem;
+    @media (max-width: 800px) {
+      flex-direction: column;
+    }
+
+    > div {
+      justify-content: space-around;
+      margin-top: 2rem;
     }
 
     img {
@@ -61,6 +71,10 @@ export const StyledProps = styled.div`
 export const AboutMe = styled.div`
   display: flex;
   padding: 2rem 0;
+
+  @media (max-width: 500px) {
+    flex-direction: column;
+  }
 `;
 
 export const StyledMe = styled.div`
@@ -69,9 +83,13 @@ export const StyledMe = styled.div`
   font-family: "Quicksand", sans-serif;
   text-align: center;
 
-  @media (max-width: 800px
-    ) {
+  @media (max-width: 800px) {
     margin-left: 1rem;
+  }
+
+  @media (max-width: 500px) {
+    width: 100%;
+    margin-left: 0;
   }
 
   img {
@@ -88,10 +106,15 @@ export const StyledChart = styled.div`
   width: 55%;
   margin-left: 4rem;
 
-  @media (max-width: 800px
-    ) {
+  @media (max-width: 800px) {
     width: 50%;
     margin-left: 1rem;
+  }
+
+  @media (max-width: 500px) {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 2rem;
   }
 `;
 
