@@ -8,6 +8,11 @@ export const HeaderStyle = styled.div`
   position: relative;
   text-align: center;
   padding-top: 15rem;
+
+  @media (max-width: 500px) {
+    height: 20rem;
+    padding-top: 10rem;
+  }
 `;
 
 export const Styledtext = styled.div`
@@ -16,6 +21,11 @@ export const Styledtext = styled.div`
     font-size: 2.4rem;
     font-family: "Noto Sans KR", sans-serif;
     line-height: 1rem;
+
+    @media (max-width: 500px) {
+      font-size: 1.5rem;
+      line-height: .5rem;
+  }
 
     span {
       color: #e31b6d;
@@ -35,6 +45,10 @@ export const FancyDiv = styled.div`
 
   @media (max-width: 800px) {
     width: 20%;
+  }
+
+  @media (max-width: 500px) {
+    width: 40%;
   }
 
   span {
