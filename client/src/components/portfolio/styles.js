@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import Flippy, { FrontSide } from "react-flippy";
 
 export const StyledAll = styled.div`
   padding: 5rem;
@@ -10,7 +11,7 @@ export const StyledAll = styled.div`
   text-align: center;
 
   @media (max-width: 800) {
-    padding: 5rem 1rem;
+    padding: 5rem 0;
   }
 `;
 

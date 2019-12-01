@@ -31,6 +31,10 @@ export const StyledDiv = styled.div`
     height: 0.2rem;
     margin-left: 2.5rem;
     background: #ffffff;
+
+    @media (max-width: 800px) {
+      margin-left: 3.5rem;
+    }
   }
 `;
 

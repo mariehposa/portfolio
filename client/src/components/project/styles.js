@@ -23,6 +23,10 @@ export const StyledDiv = styled.div`
     height: 0.2rem;
     margin-left: 9rem;
     background: #444649;
+
+    @media (max-width: 800px) {
+      margin-left: 11rem;
+    }
   }
 `;
 
