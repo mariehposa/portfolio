@@ -25,14 +25,14 @@ export const StyledDiv = styled.div`
   h2 {
     font-size: 2.5rem;
     font-family: "Changa", sans-serif;
-    color: #444649;
+    color: #000000;
   }
 
   div {
     width: 5rem;
     height: 0.2rem;
     margin-left: 3rem;
-    background: #444649;
+    background: #04c2c9;
 
     @media (max-width: 800px) {
       margin-left: 4rem;

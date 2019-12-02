@@ -5,8 +5,7 @@ export const StyledAll = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: #444649;
-
+  
   @media (max-width: 800px) {
     padding: 5rem 1rem;
   }
@@ -29,7 +28,7 @@ export const StyledDiv = styled.div`
     width: 5rem;
     height: 0.2rem;
     margin-left: 1.3rem;
-    background: #444649;
+    background: #04c2c9;
 
     @media (max-width: 800px) {
       margin-left: 1.5rem;
