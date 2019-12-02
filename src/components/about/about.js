@@ -72,50 +72,50 @@ export default function About() {
       </StyledDiv>
 
       <Zoom top cascade>
-      <StyledProps>
-        <div>
+        <StyledProps>
           <div>
+            <div>
+              <HexaTop />
+              <HexaMid>
+                <img src={fast} alt="fast" />
+              </HexaMid>
+              <HexaBottom />
+              <StyledText>Fast</StyledText>
+              <p>Fast load times and lag free interaction, my highest priority.</p>
+            </div>
+            <div>
             <HexaTop />
-            <HexaMid>
-              <img src={fast} alt="fast" />
-            </HexaMid>
-            <HexaBottom />
-            <StyledText>Fast</StyledText>
-            <p>Fast load times and lag free interaction, my highest priority.</p>
+              <HexaMid>
+              <img src={responsive} alt="responsive" />
+              </HexaMid>
+              <HexaBottom />
+              <StyledText>Responsive</StyledText>
+              <p>My layouts will work on any device, big or small.</p>
+            </div>
           </div>
           <div>
-          <HexaTop />
-            <HexaMid>
-            <img src={responsive} alt="responsive" />
-            </HexaMid>
-            <HexaBottom />
-            <StyledText>Responsive</StyledText>
-            <p>My layouts will work on any device, big or small.</p>
+            <div>
+            <HexaTop />
+              <HexaMid>
+              <img src={intuitive} alt="intuitive" />
+              </HexaMid>
+              <HexaBottom />
+              <StyledText>Intuitive</StyledText>
+              <p>My layouts will work on any device, big or small.</p>
+            </div>
+            <div>
+            <HexaTop />
+              <HexaMid>
+              <img src={dynamic} alt="dynamic" />
+              </HexaMid>
+              <HexaBottom />
+              <StyledText>Dynamic</StyledText>
+              <p>
+                Websites don't have to be static, I love making pages come to life.
+              </p>
+            </div>
           </div>
-        </div>
-        <div>
-          <div>
-          <HexaTop />
-            <HexaMid>
-            <img src={intuitive} alt="intuitive" />
-            </HexaMid>
-            <HexaBottom />
-            <StyledText>Intuitive</StyledText>
-            <p>My layouts will work on any device, big or small.</p>
-          </div>
-          <div>
-          <HexaTop />
-            <HexaMid>
-            <img src={dynamic} alt="dynamic" />
-            </HexaMid>
-            <HexaBottom />
-            <StyledText>Dynamic</StyledText>
-            <p>
-              Websites don't have to be static, I love making pages come to life.
-            </p>
-          </div>
-        </div>
-      </StyledProps>
+        </StyledProps>
       </Zoom>
 
       <Zoom>
@@ -135,7 +135,7 @@ export default function About() {
           <SkillBar skills={skills} colors={colors} />
         </StyledChart>
       </AboutMe>
-        </Zoom>
+    </Zoom>
       
     </StyledAll>
   );

@@ -3,6 +3,7 @@ import { Formik, ErrorMessage } from 'formik';
 import * as yup from 'yup';
 import axios from 'axios';
 import swal from 'sweetalert';
+import Jello from 'react-reveal/Jello';
 import { StyledAll, StyledDiv, StyleField, StyleForm, StyledButton } from './styles';
 import '../../App.css'
 
@@ -45,8 +46,10 @@ export default function Contact () {
                 <h2>CONTACT</h2>
                 <div></div>
             </StyledDiv>
-            <p>Have a question or minding a project? <span>Let's talk!</span></p>
-            <ContactForm  onSubmitButton={onSubmitButton}/>
+            <Jello>
+                <p>Have a question or minding a project? <span>Let's talk!</span></p>
+                <ContactForm  onSubmitButton={onSubmitButton}/>
+            </Jello>
         </StyledAll>
     );
 }

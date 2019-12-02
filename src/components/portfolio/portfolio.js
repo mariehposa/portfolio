@@ -34,14 +34,14 @@ export default function Portfolio() {
         <StyledLink to="/portfolio/node">NODE</StyledLink>
       </StyledNav>
       <Fade bottom cascade>
-      <StyledTotal>
-        <Route exact path="/" component={All} />
-        <Route exact path="/portfolio" component={All} />
-        <Route path="/portfolio/html" component={Html} />
-        <Route path="/portfolio/react" component={EReact} />
-        <Route path="/portfolio/redux" component={Redux} />
-        <Route path="/portfolio/node" component={Node} />
-      </StyledTotal>
+        <StyledTotal>
+          <Route exact path="/" component={All} />
+          <Route exact path="/portfolio" component={All} />
+          <Route path="/portfolio/html" component={Html} />
+          <Route path="/portfolio/react" component={EReact} />
+          <Route path="/portfolio/redux" component={Redux} />
+          <Route path="/portfolio/node" component={Node} />
+        </StyledTotal>
       </Fade>
     </StyledAll>
   );
