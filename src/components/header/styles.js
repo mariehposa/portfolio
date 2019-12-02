@@ -62,6 +62,6 @@ export const FancyDiv = styled.div`
   }
 
   &:hover {
-    background: palevioletred;
+    border-radius:50%;
   }
 `;

@@ -43,7 +43,9 @@ export const StyledA = styled.a`
   }
 
     &:hover {
-        background: #04c2c9;
-        padding: .8rem;
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+        box-shadow: inset 0 0 0 10px #04c2c9;
     }
 `
