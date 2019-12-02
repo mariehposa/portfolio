@@ -8,6 +8,7 @@ import starwars from "./images/starwars.png";
 import flora from "./images/flora.png";
 import robot from "./images/robot.png";
 import essentialism from "./images/essentialism.png";
+import Fade from 'react-reveal/Fade';
 import {
   StyledAll,
   StyledNav,
@@ -32,6 +33,7 @@ export default function Portfolio() {
         <StyledLink to="/portfolio/redux">REDUX</StyledLink>
         <StyledLink to="/portfolio/node">NODE</StyledLink>
       </StyledNav>
+      <Fade bottom cascade>
       <StyledTotal>
         <Route exact path="/" component={All} />
         <Route exact path="/portfolio" component={All} />
@@ -40,6 +42,7 @@ export default function Portfolio() {
         <Route path="/portfolio/redux" component={Redux} />
         <Route path="/portfolio/node" component={Node} />
       </StyledTotal>
+      </Fade>
     </StyledAll>
   );
 }

@@ -118,7 +118,7 @@ export default function About() {
       </StyledProps>
       </Zoom>
 
-      <Zoom left cascade>
+      <Zoom>
       <AboutMe>
         <StyledMe>
           <img src={owner} alt="mariam adedeji" />
