@@ -3,10 +3,12 @@ import Particles from "react-particles-js";
 import '../../App.css';
 import arrow from './img/arrow.png';
 import { HeaderStyle, Styledtext, FancyDiv } from "./styles";
+import Zoom from 'react-reveal/Zoom';
 
 export default function Header() {
   return (
     <HeaderStyle id={"header"}>
+      <Zoom>
       <Styledtext>
         <p>
           Hello, I'm
@@ -18,6 +20,7 @@ export default function Header() {
           <img src={arrow} alt="arrow-down"/></span>
           </FancyDiv>
       </Styledtext>
+      </Zoom>
 
       <Particles
         className="Particles"

@@ -18,17 +18,7 @@ export default function Navigation() {
     });
   }
 
-  function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  } 
-
   return (
-    // <StyledNav id="myTopnav">
     <StyledNav>
       <div>
         <StyledLink onClick={() => navigate("header")} exact to="/">
@@ -52,7 +42,6 @@ export default function Navigation() {
           className={darkMode ? 'toggle toggled' : 'toggle'}
         />
       </div>
-      {/* <a href="javascript:void(0);" className="icon" onclick="myFunction()">&#9776;</a> */}
     </StyledNav>
   );
 }
