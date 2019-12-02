@@ -4,6 +4,7 @@ import ecommerce from "./img/ecommerce.jpg";
 import construction from "./img/construction.jpg";
 import restaurant from "./img/restaurant.jpg";
 import savory from "./img/savory.jpg";
+import Fade from 'react-reveal/Fade';
 import { StyledAll, StyledDiv, StyledSlide } from './styles';
 
 const properties = {
@@ -21,6 +22,8 @@ export default function Project() {
       <h2> UPCOMING PROJECTS </h2>
       <div></div>
       </StyledDiv>
+
+      <Fade cascade>
       <Slide {...properties} 
       style={{width: "39rem", height: "28rem", margin: "4rem 0" }} >
       {/* style={{width: "20rem", height: "20rem", margin: "4rem 0" }}> */}
@@ -48,6 +51,7 @@ export default function Project() {
           <dt>2020</dt>
         </StyledSlide>
       </Slide>
+      </Fade>
     </StyledAll>
   );
 }
