@@ -6,6 +6,7 @@ import intuitive from "./img/004-lightbulb.png";
 import dynamic from "./img/006-startup.png";
 import owner from "./img/owner.jpg";
 import "../../App.css";
+import Zoom from 'react-reveal/Zoom';
 import {
   StyledAll,
   StyledDiv,
@@ -69,6 +70,8 @@ export default function About() {
         <h2>ABOUT</h2>
         <div></div>
       </StyledDiv>
+
+      <Zoom top cascade>
       <StyledProps>
         <div>
           <div>
@@ -113,7 +116,9 @@ export default function About() {
           </div>
         </div>
       </StyledProps>
+      </Zoom>
 
+      <Zoom left cascade>
       <AboutMe>
         <StyledMe>
           <img src={owner} alt="mariam adedeji" />
@@ -130,6 +135,8 @@ export default function About() {
           <SkillBar skills={skills} colors={colors} />
         </StyledChart>
       </AboutMe>
+        </Zoom>
+      
     </StyledAll>
   );
 }

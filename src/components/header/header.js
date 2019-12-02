@@ -9,17 +9,17 @@ export default function Header() {
   return (
     <HeaderStyle id={"header"}>
       <Zoom>
-      <Styledtext>
-        <p>
-          Hello, I'm
-          <span> Mariam Adedeji.</span>
-        </p>
-        <p>I'm a full stack web developer.</p>
-        <FancyDiv> 
-          <span><p>View my work</p> 
-          <img src={arrow} alt="arrow-down"/></span>
-          </FancyDiv>
-      </Styledtext>
+        <Styledtext>
+          <p>
+            Hello, I'm
+            <span> Mariam Adedeji.</span>
+          </p>
+          <p>I'm a full stack web developer.</p>
+          <FancyDiv> 
+            <span><p>View my work</p> 
+            <img src={arrow} alt="arrow-down"/></span>
+            </FancyDiv>
+        </Styledtext>
       </Zoom>
 
       <Particles
