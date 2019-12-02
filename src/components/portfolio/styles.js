@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import Flippy, { FrontSide, BackSide } from "react-flippy";
 
 export const StyledAll = styled.div`
   padding: 5rem;
@@ -70,6 +71,26 @@ export const StyledLink = styled(Link)`
 
   @media (max-width: 500px) {
     padding: 1rem 0.5rem;
+  }
+`;
+
+export const CustomFlippy = styled(Flippy)`
+  width: 350px;
+  height: 300px;
+
+  @media (max-width: 500px) {
+    width: 300px;
+    height: 300px;
+  }
+`;
+
+export const CustomFront = styled(FrontSide)`
+  width: 320px;
+  height: 280px;
+
+  @media (max-width: 500px) {
+    width: 270px;
+    height: 280px;
   }
 `;
 

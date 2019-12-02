@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Slide } from "react-slideshow-image";
 
 export const StyledAll = styled.div`
   padding: 5rem;
@@ -38,6 +39,18 @@ export const StyledDiv = styled.div`
     @media (max-width: 500px) {
       margin-left: 4.5rem;
     }
+  }
+`;
+
+export const CustomSlide = styled(Slide)`
+  width: 39rem;
+  height: 28rem;
+  margin: 4rem 0;
+
+  @media only screen and (max-width: 500px) {
+    width: 20rem;
+    height: 20rem;
+    margin: 4rem 0;
   }
 `;
 
