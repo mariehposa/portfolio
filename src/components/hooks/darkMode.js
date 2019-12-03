@@ -6,9 +6,9 @@ export function DarkMode () {
 
     useEffect(() => {
         if(darkValue) {
-            document.querySelector('body').classList.add('darkMode')
-        } else {
             document.querySelector('body').classList.remove('darkMode')
+        } else {
+            document.querySelector('body').classList.add('darkMode')
         }
     }, [darkValue]);
 
