@@ -77,6 +77,11 @@ const validation = yup.object().shape({
 })
 
 function ContactForm ({onSubmitButton}) {
+
+    function onClickSubmit() {
+        document.getElementById("buttonColor").style.background = "#04c2c9";
+    } 
+
     return (
         <div>
             <Formik 
@@ -96,7 +101,7 @@ function ContactForm ({onSubmitButton}) {
                             <StyleField name="message" type="text" component="textarea" rows={8} placeholder="Message" />
                             <ErrorMessage name="message" component="div" />
                             <br />
-                            <StyledButton type="submit">SUBMIT</StyledButton>
+                            <StyledButton type="submit" id="buttonColor" onClick={() => onClickSubmit()}>SUBMIT</StyledButton>
                         </StyleForm>
                     )
                 }}

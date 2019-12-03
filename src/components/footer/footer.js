@@ -10,8 +10,8 @@ export default function Footer() {
     return (
         <StyledAll>
             <StyledDiv>
-            <StyledA  title="gmail profile">
-                <img src={gmail} alt="gmail logo" href="mariamadedeji.work@gmail.com"/>
+            <StyledA  title="gmail profile" href="mailto:mariamadedeji.work@gmail.com">
+                <img src={gmail} alt="gmail logo" />
             </StyledA>
             <StyledA href="https://github.com/mariehposa" title="github profile">
                 <img src={github} alt="github logo"/>
