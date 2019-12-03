@@ -3,7 +3,9 @@ import Flippy, { FrontSide, BackSide } from "react-flippy";
 import {
   StyledP,
   StyledBack,
-  StyledBackAll
+  StyledBackAll,
+  StyledFlippy,
+  StyledFront
 } from "./styles";
 import github from "./images/github.png";
 import domain from "./images/domain.png";
@@ -17,20 +19,18 @@ export default ({
   websiteLink
 }) => {
   return (
-    <Flippy
+    <StyledFlippy
       flipOnHover={true}
       flipDirection="horizontal"
       style={{ width: "350px", height: "300px" }}
-      // style={{ width: "300px", height: "300px" }}
     >
-      <FrontSide>
+      <StyledFront>
         <img
           src={projectImage}
           alt={imageAlt}
           style={{ width: "320px", height: "280px" }}
-          // style={{ width: "270px", height: "280px" }}
         />
-      </FrontSide>
+      </StyledFront>
       <BackSide>
         <StyledBackAll>
           <h3>{projectTitle}</h3>
@@ -51,6 +51,6 @@ export default ({
           </div>
         </StyledBackAll>
       </BackSide>
-    </Flippy>
+    </StyledFlippy>
   );
 };

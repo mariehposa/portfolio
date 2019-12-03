@@ -74,7 +74,7 @@ export const StyledLink = styled(Link)`
   }
 `;
 
-export const CustomFlippy = styled(Flippy)`
+export const StyledFlippy = styled(Flippy)`
   width: 350px;
   height: 300px;
 
@@ -84,7 +84,7 @@ export const CustomFlippy = styled(Flippy)`
   }
 `;
 
-export const CustomFront = styled(FrontSide)`
+export const StyledFront = styled(FrontSide)`
   width: 320px;
   height: 280px;
 
@@ -142,10 +142,6 @@ export const StyledBack = styled.div`
 
       &:hover {
         color: #ffffff;
-      }
-
-      @media (max-width: 500px) {
-        margin-left: 0;
       }
     }
 
