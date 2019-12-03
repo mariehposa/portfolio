@@ -8,6 +8,8 @@ export const StyledAll = styled.div`
   align-items: center;
   text-align: center;
   background: #252934;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
 
   @media (max-width: 500px) {
     padding: 5rem 1rem;
