@@ -8,6 +8,15 @@ export const StyledNav = styled.div`
   border-bottom: 3px solid #04c2c9;
   padding: 0.5rem;
   padding-left: 4rem;
+
+  @media only screen and (max-width: 500px)  {
+    display:none;
+
+    > div {
+      flex-direction: column;
+      display: flex;
+    }
+  }
 `;
 
 export const StyledLink = styled(NavLink)`
