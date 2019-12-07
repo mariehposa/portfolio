@@ -5,7 +5,8 @@ import {
   StyledBack,
   StyledBackAll,
   StyledFlippy,
-  StyledFront
+  StyledFront,
+  StyledBackTotal
 } from "./styles";
 import github from "./images/github.png";
 import domain from "./images/domain.png";
@@ -31,7 +32,7 @@ export default ({
           style={{ width: "320px", height: "280px" }}
         />
       </StyledFront>
-      <BackSide>
+      <StyledBackTotal>
         <StyledBackAll>
           <h3>{projectTitle}</h3>
           <StyledP>{projectStack}</StyledP>
@@ -50,7 +51,7 @@ export default ({
             </StyledBack>
           </div>
         </StyledBackAll>
-      </BackSide>
+      </StyledBackTotal>
     </StyledFlippy>
   );
 };

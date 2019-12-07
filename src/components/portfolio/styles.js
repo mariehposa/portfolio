@@ -94,6 +94,13 @@ export const StyledFront = styled(FrontSide)`
   }
 `;
 
+export const StyledBackTotal = styled(BackSide)`
+
+  @media (max-width: 500px) {
+    display: none;
+  }
+`;
+
 export const StyledTotal = styled.div`
   display: flex;
   flex-direction: row;
