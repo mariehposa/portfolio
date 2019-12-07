@@ -36,7 +36,7 @@ export const StyledLink = styled(NavLink)`
   }
 
   @media only screen and (max-width: 500px) {
-    margin: .4rem 0;
+    margin: .7rem 0;
   }
 `;
 
