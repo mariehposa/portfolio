@@ -19,6 +19,7 @@ export const Styledtext = styled.div`
   > p {
     color: white;
     font-size: 2.4rem;
+    font-weight: bold;
     font-family: "Noto Sans KR", sans-serif;
     line-height: 1rem;
 
@@ -40,7 +41,7 @@ export const FancyDiv = styled.div`
   padding: 0.2rem 0;
   margin: auto;
   border: 0.15rem solid white;
-  color: paleturquoise;
+  color: #04c2c9;
   align-items: center;
 
   @media (max-width: 800px) {
