@@ -51,6 +51,12 @@ export default function Navigation() {
 
 
 export const BurgerMenu = (props) => {
+  const [darkMode, setDarkMode] = DarkMode(false);
+  const toggleMode = e => {
+    e.preventDefault();
+    setDarkMode(!darkMode);
+  };
+
   function navigate(elementId) {
     props.setMenuOpen(false)
     let offsetTop = document.getElementById(elementId).offsetTop;
@@ -76,11 +82,11 @@ export const BurgerMenu = (props) => {
         <StyledLink onClick={() => navigate("contact")} to="/contact">
           CONTACT
         </StyledLink>
-      {/* <div className="darkModeToggle">
+      <div className="darkModeToggle">
         <div onClick={toggleMode}
           className={darkMode ? 'toggle toggled' : 'toggle'}
         />
-      </div> */}
+      </div>
     </Menu>
   );
 }

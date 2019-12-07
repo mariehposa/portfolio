@@ -101,7 +101,7 @@ export default function About() {
               </HexaMid>
               <HexaBottom />
               <StyledText>Intuitive</StyledText>
-              <p>My layouts will work on any device, big or small.</p>
+              <p>Strong preference for easy to use, intuitive UX/UI.</p>
             </div>
             <div>
             <HexaTop />

@@ -9,12 +9,13 @@ export const StyledNav = styled.div`
   padding: 0.5rem;
   padding-left: 4rem;
 
-  @media only screen and (max-width: 500px)  {
+  @media (max-width: 500px)  {
     display:none;
 
     > div {
       flex-direction: column;
       display: flex;
+      padding: 0;
     }
   }
 `;
