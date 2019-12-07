@@ -8,7 +8,7 @@
   
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
-    background: darkred;
+    background:#04c2c9;
   }
   
   /* Color/shape of burger icon bars on hover*/
@@ -24,7 +24,7 @@
   
   /* Color/shape of close button cross */
   .bm-cross {
-    background: #bdc3c7;
+    background:#04c2c9;
   }
   
   /*
@@ -38,7 +38,7 @@
   
   /* General sidebar styles */
   .bm-menu {
-    background: #373a47;
+    background:#1b242f;
     padding: 2.5em 1.5em 0;
     font-size: 1.15em;  
   }

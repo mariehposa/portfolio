@@ -66,7 +66,7 @@ export const BurgerMenu = (props) => {
     });
   }
   return (
-    <Menu {...props} width = { '60%' } right>
+    <Menu {...props} width = { '70%' } right>
         <StyledLink onClick={() => navigate("header")} exact to="/">
           HOME
         </StyledLink>

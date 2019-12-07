@@ -30,7 +30,7 @@ export default function Header() {
                   "value": 100,
                   "density": {
                     "enable": false,
-                    "value_area": 800
+                    "value_area": 900
                   }
                 },
                 "color": {
@@ -92,7 +92,7 @@ export default function Header() {
                 "detect_on": "canvas",
                 "events": {
                   "onhover": {
-                    "enable": false,
+                    "enable": true,
                     "mode": "repulse"
                   },
                   "onclick": {
