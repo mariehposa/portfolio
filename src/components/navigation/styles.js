@@ -34,5 +34,9 @@ export const StyledLink = styled(NavLink)`
   &.active {
     color: #e31b6d;
   }
+
+  @media only screen and (max-width: 500px) {
+    margin: 0 auto;
+  }
 `;
 
