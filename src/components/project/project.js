@@ -1,6 +1,6 @@
 import React from "react";
 import ecommerce from "./img/ecommerce.jpg";
-import construction from "./img/construction.jpg";
+import hackathon from "./img/hackathon.jpg";
 import restaurant from "./img/restaurant.jpg";
 import savory from "./img/savory.jpg";
 import Fade from "react-reveal/Fade";
@@ -27,7 +27,7 @@ export default function Project() {
           <CustomSlide {...properties}>
             <StyledSlide>
               <img src={ecommerce} alt="E-commerce" />
-              <h3>E-commerce Website</h3>
+              <h3>E-commerce Site</h3>
               <dt>2019</dt>
             </StyledSlide>
             <StyledSlide>
@@ -36,8 +36,8 @@ export default function Project() {
               <dt>2019</dt>
             </StyledSlide>
             <StyledSlide>
-              <img src={construction} alt="construction" />
-              <h3>Construction Website</h3>
+              <img src={hackathon} alt="hackathon" />
+              <h3>Hackathon Portal</h3>
               <dt>2020</dt>
             </StyledSlide>
             <StyledSlide>
