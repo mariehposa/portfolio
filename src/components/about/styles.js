@@ -113,7 +113,7 @@ export const StyledChart = styled.div`
   }
 `;
 
-export const StyledText = styled.p`
+export const StyledText = styled.h5`
   font-weight: bold;
   font-size: 1.2rem;
 `;
