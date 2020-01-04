@@ -101,6 +101,12 @@ export const StyledMe = styled.div`
   span {
     color: #04c2c9;
   }
+
+  > p {
+    @media (max-width: 500px) {
+      font-size: .9rem;
+    }
+  }
 `;
 
 export const StyledChart = styled.div`
