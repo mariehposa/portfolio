@@ -55,6 +55,12 @@ export const StyledProps = styled.div`
     > div {
       justify-content: space-around;
       margin-top: 2rem;
+
+      > p {
+        @media (max-width: 500px) {
+          font-size: .8rem;
+        }
+      }
     }
 
     img {
