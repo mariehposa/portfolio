@@ -8,6 +8,7 @@ import starwars from "./images/starwars.png";
 import flora from "./images/flora.png";
 import robot from "./images/robot.png";
 import essentialism from "./images/essentialism.png";
+import magicBrain from "./images/magicBrain.png"
 import Fade from 'react-reveal/Fade';
 import {
   StyledAll,
@@ -114,7 +115,7 @@ export function EReact() {
         websiteLink="https://react-redux-kktstb7je.now.sh/"
       />
       <CustomFlippy
-        projectImage={magicbrain}
+        projectImage={magicBrain}
         imageAlt="magic brain"
         projectTitle="Magic brain"
         projectStack="React and pure Javascript"
