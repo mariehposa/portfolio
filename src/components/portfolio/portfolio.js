@@ -113,6 +113,14 @@ export function EReact() {
         gitHubLink="https://github.com/mariehposa/Sprint-Challenge-Single-Page-Apps"
         websiteLink="https://react-redux-kktstb7je.now.sh/"
       />
+      <CustomFlippy
+        projectImage={magicbrain}
+        imageAlt="magic brain"
+        projectTitle="Magic brain"
+        projectStack="React and pure Javascript"
+        gitHubLink="https://github.com/mariehposa/magicBrain"
+        websiteLink="https://magicbrain-llvcxf9e0.now.sh/"
+      />
     </>
   );
 }
