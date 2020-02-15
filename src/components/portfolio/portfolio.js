@@ -137,6 +137,14 @@ export function Redux() {
         gitHubLink="https://github.com/mariehposa/Split-the-bill"
         websiteLink="https://split-the-bill.mariehposa.now.sh/"
       />
+      <CustomFlippy
+        projectImage={hackathon}
+        imageAlt="Hackathon portal"
+        projectTitle="Hackathon portal"
+        projectStack="React Redux"
+        gitHubLink="https://github.com/LABS-EU3/hackton-frontend"
+        websiteLink="https://hackton.co/"
+      />
     </>
   );
 }
