@@ -1,6 +1,5 @@
 import React from "react";
 import ecommerce from "./img/ecommerce.jpg";
-import hackathon from "./img/hackathon.jpg";
 import restaurant from "./img/restaurant.jpg";
 import savory from "./img/savory.jpg";
 import Fade from "react-reveal/Fade";
@@ -34,11 +33,6 @@ export default function Project() {
               <img src={savory} alt="savory" />
               <h3>Savory</h3>
               <dt>2019</dt>
-            </StyledSlide>
-            <StyledSlide>
-              <img src={hackathon} alt="hackathon" />
-              <h3>Hackathon Portal</h3>
-              <dt>2020</dt>
             </StyledSlide>
             <StyledSlide>
               <img src={restaurant} alt="restaurant" />
