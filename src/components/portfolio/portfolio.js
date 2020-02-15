@@ -10,6 +10,7 @@ import robot from "./images/robot.png";
 import essentialism from "./images/essentialism.png";
 import magicBrain from "./images/magicBrain.png"
 import Fade from 'react-reveal/Fade';
+import hackton from "./images/hackton.png"
 import {
   StyledAll,
   StyledNav,
@@ -138,7 +139,7 @@ export function Redux() {
         websiteLink="https://split-the-bill.mariehposa.now.sh/"
       />
       <CustomFlippy
-        projectImage={hackathon}
+        projectImage={hackton}
         imageAlt="Hackathon portal"
         projectTitle="Hackathon portal"
         projectStack="React Redux"
