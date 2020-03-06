@@ -52,6 +52,10 @@ const skills = [
   {
     type: "Postgres",
     level: 50
+  },
+  {
+    type: "Python",
+    level: 40
   }
 ];
 
