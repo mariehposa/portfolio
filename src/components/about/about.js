@@ -34,10 +34,6 @@ const skills = [
     level: 70
   },
   {
-    type: "Python",
-    level: 40
-  },
-  {
     type: "React",
     level: 75
   },
@@ -56,6 +52,10 @@ const skills = [
   {
     type: "Postgres",
     level: 50
+  },
+  {
+    type: "Python",
+    level: 40
   },
   {
     type: "Liquid",

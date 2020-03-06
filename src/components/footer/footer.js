@@ -4,6 +4,7 @@ import twitter from './logo/002-twitter.png';
 import linkedin from './logo/003-linkedin.png';
 import gmail from './logo/004-gmail.png';
 import github from './logo/005-github.png';
+import hackerrank from './logo/006-hackerrank.png';
 import { StyledAll, StyledDiv, StyledA } from './styles';
 
 export default function Footer() {
@@ -24,6 +25,9 @@ export default function Footer() {
             </StyledA>
             <StyledA href="https://www.facebook.com/adedeji.mariam.3" title="facebook profile">
                 <img src={facebook} alt="facebook logo"/>
+            </StyledA>
+            <StyledA href="https://www.hackerrank.com/mariehposa" title="hackerrank profile">
+                <img src={hackerrank} alt="hackerrank logo"/>
             </StyledA>
             </StyledDiv>
             <p> MARIAM ADEDEJI <span> © 2019 </span></p>
