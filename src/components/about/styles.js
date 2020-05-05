@@ -57,8 +57,9 @@ export const StyledProps = styled.div`
       margin-top: 2rem;
 
       > p {
+        font-size: 1.2rem;
         @media (max-width: 500px) {
-          font-size: .8rem;
+          font-size: 1rem;
         }
       }
     }
@@ -68,6 +69,7 @@ export const StyledProps = styled.div`
     }
 
     h3 {
+      font-size: 1.2rem;
       font-weight: bold;
     }
   }
@@ -95,6 +97,7 @@ export const StyledMe = styled.div`
 
   img {
     width: 50%;
+    margin-bottom: 1rem;
     box-shadow: 7px 7px 0px 0px #04c2c9;
   }
 
@@ -102,9 +105,13 @@ export const StyledMe = styled.div`
     color: #04c2c9;
   }
 
+  p {
+    font-size: 1.2rem;
+  }
+
   > p {
     @media (max-width: 500px) {
-      font-size: .9rem;
+      font-size: 1rem;
     }
   }
 `;

@@ -6,7 +6,7 @@ import intuitive from "./img/004-lightbulb.png";
 import dynamic from "./img/006-startup.png";
 import owner from "./img/owner.jpg";
 import "../../App.css";
-import Zoom from 'react-reveal/Zoom';
+import Zoom from "react-reveal/Zoom";
 import {
   StyledAll,
   StyledDiv,
@@ -17,58 +17,58 @@ import {
   StyledText,
   HexaTop,
   HexaMid,
-  HexaBottom
+  HexaBottom,
 } from "./styles";
 
 const skills = [
   {
     type: "HTML",
-    level: 90
+    level: 90,
   },
   {
     type: "CSS",
-    level: 80
+    level: 80,
   },
   {
     type: "Javascript",
-    level: 70
+    level: 70,
   },
   {
     type: "React",
-    level: 75
+    level: 75,
   },
   {
     type: "Redux",
-    level: 70
+    level: 70,
   },
   {
     type: "Node",
-    level: 65
+    level: 65,
   },
   {
     type: "Sqlite3",
-    level: 60
+    level: 60,
   },
   {
     type: "Postgres",
-    level: 50
+    level: 50,
   },
   {
     type: "Python",
-    level: 40
+    level: 40,
   },
   {
     type: "Liquid",
-    level: 30
-  }
+    level: 30,
+  },
 ];
 
 const colors = {
-  "bar": "#04C2C9",
-  "title": {
-    "text": "#ffffff",
-    "background": "#04c2c9"
-  }
+  bar: "#04C2C9",
+  title: {
+    text: "#ffffff",
+    background: "#04c2c9",
+  },
 };
 
 export default function About() {
@@ -89,12 +89,14 @@ export default function About() {
               </HexaMid>
               <HexaBottom />
               <StyledText>Fast</StyledText>
-              <p>Fast load times and lag free interaction, my highest priority.</p>
+              <p>
+                Fast load times and lag free interaction, my highest priority.
+              </p>
             </div>
             <div>
-            <HexaTop />
+              <HexaTop />
               <HexaMid>
-              <img src={responsive} alt="responsive" />
+                <img src={responsive} alt="responsive" />
               </HexaMid>
               <HexaBottom />
               <StyledText>Responsive</StyledText>
@@ -103,23 +105,24 @@ export default function About() {
           </div>
           <div>
             <div>
-            <HexaTop />
+              <HexaTop />
               <HexaMid>
-              <img src={intuitive} alt="intuitive" />
+                <img src={intuitive} alt="intuitive" />
               </HexaMid>
               <HexaBottom />
               <StyledText>Intuitive</StyledText>
               <p>Strong preference for easy to use, intuitive UX/UI.</p>
             </div>
             <div>
-            <HexaTop />
+              <HexaTop />
               <HexaMid>
-              <img src={dynamic} alt="dynamic" />
+                <img src={dynamic} alt="dynamic" />
               </HexaMid>
               <HexaBottom />
               <StyledText>Dynamic</StyledText>
               <p>
-                Websites don't have to be static, I love making pages come to life.
+                Websites don't have to be static, I love making pages come to
+                life.
               </p>
             </div>
           </div>
@@ -127,24 +130,24 @@ export default function About() {
       </Zoom>
 
       <Zoom>
-      <AboutMe>
-        <StyledMe>
-          <img src={owner} alt="mariam adedeji" />
-          <StyledText>Who's this lady?</StyledText>
-          <p>
-            I'm a <span>full-stack Web developer</span> with excellent
-            communication skills and vast experience. I like to create beautiful
-            and engaging user interfaces with HTML5, CSS3, javascript, Front end
-            frameworks like react, nodes and postgres for backend.{" "}
-            <span>Let's make something special... Cheers!!!</span>
-          </p>
-        </StyledMe>
-        <StyledChart>
-          <SkillBar skills={skills} colors={colors} />
-        </StyledChart>
-      </AboutMe>
-    </Zoom>
-      
+        <AboutMe>
+          <StyledMe>
+            <img src={owner} alt="mariam adedeji" />
+            <p>
+              Hi, my name is <span>Mariam Adedeji</span>. I'm a full-stack web
+              developer with excellent communication skills, systematic and
+              high-quality product spirit. I have two years of experience in
+              building, designing, testing, and delivering front-end and
+              back-end web applications using different programming languages
+              and technologies.{" "}
+              <span>Let's make something special... Cheers!!!</span>
+            </p>
+          </StyledMe>
+          <StyledChart>
+            <SkillBar skills={skills} colors={colors} />
+          </StyledChart>
+        </AboutMe>
+      </Zoom>
     </StyledAll>
   );
 }

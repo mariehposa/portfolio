@@ -55,6 +55,7 @@ export const FancyDiv = styled.div`
     display: flex;
     align-items: center;
     margin: auto;
+    font-size: 1.2rem;
 
     img {
       margin-left: 0.5rem;
