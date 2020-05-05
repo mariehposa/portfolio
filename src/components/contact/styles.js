@@ -19,9 +19,10 @@ export const StyledAll = styled.div`
     color: #04c2c9;
     font-family: "Quicksand", sans-serif;
     font-weight: bold;
+    font-size: 1.2rem;
 
     @media (max-width: 500px) {
-      font-size: 0.8rem;
+      font-size: 1rem;
     }
   }
 `;
