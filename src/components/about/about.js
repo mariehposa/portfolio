@@ -90,7 +90,7 @@ export default function About() {
               <HexaBottom />
               <StyledText>Fast</StyledText>
               <p>
-                Fast load times and lag free interaction, my highest priority.
+                Fast load times and lag free interaction.
               </p>
             </div>
             <div>
