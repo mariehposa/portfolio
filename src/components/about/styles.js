@@ -111,7 +111,7 @@ export const StyledMe = styled.div`
 
   > p {
     @media (max-width: 500px) {
-      font-size: 1rem;
+      font-size: 1.1rem;
     }
   }
 `;
