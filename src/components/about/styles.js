@@ -7,7 +7,7 @@ export const StyledAll = styled.div`
   justify-content: center;
   
   @media (max-width: 800px) {
-    padding: 5rem 1rem;
+    padding: 5rem;
   }
 
   @media (max-width: 500px) {
@@ -89,6 +89,10 @@ export const StyledMe = styled.div`
   margin-left: 4rem;
   font-family: "Quicksand", sans-serif;
   text-align: center;
+
+  @media (max-width: 800px) {
+    margin-left: 0;
+  }
 
   @media (max-width: 500px) {
     width: 100%;

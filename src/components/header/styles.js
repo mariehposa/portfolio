@@ -44,11 +44,17 @@ export const FancyDiv = styled.div`
   align-items: center;
 
   @media (max-width: 800px) {
-    width: 20%;
+    width: 25%;
   }
 
   @media (max-width: 500px) {
-    width: 40%;
+    width: 45%;
+
+    span {
+      p {
+        font-size: 1.1rem;
+      }
+    }
   }
 
   span {
