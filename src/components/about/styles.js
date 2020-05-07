@@ -59,7 +59,7 @@ export const StyledProps = styled.div`
       > p {
         font-size: 1.2rem;
         @media (max-width: 500px) {
-          font-size: 1rem;
+          font-size: 1.1rem;
         }
       }
     }
