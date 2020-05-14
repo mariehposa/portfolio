@@ -4,7 +4,6 @@ import Footer from "./components/footer/footer";
 import Header from "./components/header/header";
 import About from "./components/about/about";
 import Portfolio from "./components/portfolio/portfolio";
-import Project from "./components/project/project";
 import Navigation, {BurgerMenu} from "./components/navigation/navigation";
 import Sticky from 'react-headroom';
 
@@ -17,7 +16,6 @@ function App() {
       <Header />
       <About />
       <Portfolio />
-      <Project />
       <Contact />
       <Footer />
     </div>
