@@ -20,6 +20,7 @@ import {
 } from "./styles";
 
 import CustomFlippy from "./ProjectFlippy";
+import "../../App.css";
 
 export default function Portfolio() {
   return (

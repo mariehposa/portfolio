@@ -23,7 +23,7 @@ export default ({
     <StyledFlippy
       flipOnHover={true}
       flipDirection="horizontal"
-      style={{ width: "350px", height: "300px" }}
+      style={{ width: "350px", height: "300px", margin: "5px", }}
     >
       <StyledFront>
         <img
@@ -34,7 +34,7 @@ export default ({
       </StyledFront>
       <StyledBackTotal>
         <StyledBackAll>
-          <h3>{projectTitle}</h3>
+          <h3 style={{ color: "#000", }}>{projectTitle}</h3>
           <StyledP>{projectStack}</StyledP>
           <div>
             <StyledBack>

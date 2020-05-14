@@ -7,7 +7,6 @@ export const StyledAll = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #f5f5f5;
   text-align: center;
 
   @media (max-width: 800px) {
@@ -26,7 +25,7 @@ export const StyledDiv = styled.div`
   h2 {
     font-size: 2.5rem;
     font-family: "Changa", sans-serif;
-    color: #000000;
+    /* color: #000000; */
   }
 
   div {
