@@ -7,7 +7,7 @@ export const StyledAll = styled.div`
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background: #252934;
+  /* background: #252934; */
   border-top-left-radius: 10%;
   border-top-right-radius: 10%;
 
@@ -34,7 +34,7 @@ export const StyledDiv = styled.div`
   h2 {
     font-size: 2.5rem;
     font-family: "Changa", sans-serif;
-    color: #ffffff;
+    /* color: #ffffff; */
   }
 
   div {

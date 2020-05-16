@@ -4,7 +4,7 @@ import * as yup from 'yup';
 import axios from 'axios';
 import swal from 'sweetalert';
 import Jello from 'react-reveal/Jello';
-import { StyledAll, StyledDiv, StyleField, StyleForm, StyledButton } from './styles';
+import { StyledAll, StyledDiv, StyleField, StyleForm, StyledButton, StyleArea } from './styles';
 import '../../App.css'
 
 const contactUrl = 'https://mariam-portfolio-backend.herokuapp.com/api/contact'
@@ -98,7 +98,7 @@ function ContactForm ({onSubmitButton}) {
                             <StyleField name="email" type="email" row={3} placeholder="Email" />
                             <ErrorMessage name="email" component="div" />
                             <br />
-                            <StyleField name="message" type="text" component="textarea" rows={8} placeholder="Message" />
+                            <StyleArea name="message" type="text" component="textarea" rows={8} placeholder="Message" />
                             <ErrorMessage name="message" component="div" />
                             <br />
                             <StyledButton type="submit" id="buttonColor" onClick={() => onClickSubmit()}>SUBMIT</StyledButton>
