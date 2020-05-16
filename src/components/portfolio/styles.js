@@ -54,7 +54,7 @@ export const StyledNav = styled.div`
 export const StyledLink = styled(Link)`
   text-decoration: none;
   margin: auto 0;
-  color: #444649;
+  color: #04c2c9;
   padding: 1rem 1.5rem;
   font-size: 1.1rem;
 
@@ -64,7 +64,7 @@ export const StyledLink = styled(Link)`
     transition: 0.1s ease-out;
   }
 
-  &.active {
+  &:active {
     color: #e31b6d;
   }
 
