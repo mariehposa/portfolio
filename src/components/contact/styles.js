@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Form, Field } from "formik";
+import { Form, Field, Text } from "formik";
 
 export const StyledAll = styled.div`
   padding: 5rem;
@@ -71,6 +71,18 @@ export const StyleField = styled(Field)`
   border: 1px solid #1b242f;
   color: #fff;
   margin: 0.3rem 0;
+  font-size: 1rem;
+  font-family: "Quicksand",sans-serif;
+`;
+
+export const StyleArea = styled.textarea`
+  padding: 0.7rem;
+  background: #1e242c;
+  border: 1px solid #1b242f;
+  color: #fff;
+  margin: 0.3rem 0;
+  font-size: 1rem;
+  font-family: "Quicksand",sans-serif;
 `;
 
 export const StyledButton = styled.button`
