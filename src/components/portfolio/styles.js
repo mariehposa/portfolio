@@ -114,6 +114,7 @@ export const StyledP = styled.p`
 export const StyledBackAll = styled.div`
   display: flex;
   flex-direction: column;
+  padding: 10px;
 
   div {
     display: flex;
