@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Form, Field, Text } from "formik";
+import { Form, Field } from "formik";
 
 export const StyledAll = styled.div`
   padding: 5rem;

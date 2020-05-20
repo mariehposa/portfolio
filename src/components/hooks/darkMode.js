@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { LocalStorage } from './localStorage';
 
 export function DarkMode () {
