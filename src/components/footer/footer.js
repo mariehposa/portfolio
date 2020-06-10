@@ -1,5 +1,5 @@
 import React from 'react';
-import facebook from './logo/001-facebook.png';
+import dev from './logo/001-dev.png';
 import twitter from './logo/002-twitter.png';
 import linkedin from './logo/003-linkedin.png';
 import gmail from './logo/004-gmail.png';
@@ -23,9 +23,9 @@ export default function Footer() {
             <StyledA href="https://twitter.com/Mariehposah?s=09" title="twitter profile">
                 <img src={twitter} alt="twitter logo"/>
             </StyledA>
-            {/* <StyledA href="https://www.facebook.com/adedeji.mariam.3" title="facebook profile">
-                <img src={facebook} alt="facebook logo"/>
-            </StyledA> */}
+            <StyledA href="https://dev.to/mariehposa" title="dev profile">
+                <img src={dev} alt="dev logo"/>
+            </StyledA>
             <StyledA href="https://www.hackerrank.com/mariehposa" title="hackerrank profile">
                 <img src={hackerrank} alt="hackerrank logo"/>
             </StyledA>
