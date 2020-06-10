@@ -23,9 +23,9 @@ export default function Footer() {
             <StyledA href="https://twitter.com/Mariehposah?s=09" title="twitter profile">
                 <img src={twitter} alt="twitter logo"/>
             </StyledA>
-            <StyledA href="https://www.facebook.com/adedeji.mariam.3" title="facebook profile">
+            {/* <StyledA href="https://www.facebook.com/adedeji.mariam.3" title="facebook profile">
                 <img src={facebook} alt="facebook logo"/>
-            </StyledA>
+            </StyledA> */}
             <StyledA href="https://www.hackerrank.com/mariehposa" title="hackerrank profile">
                 <img src={hackerrank} alt="hackerrank logo"/>
             </StyledA>
