@@ -19,7 +19,43 @@ export default function About() {
         <StyledProps>
           <div>
             <div>
-                <p>Html 5</p>
+                <p>Html</p>
+                <img src={} />
+            </div>
+            <div>
+                <p>Css</p>
+                <img src={} />
+            </div>
+            <div>
+                <p>Javascript</p>
+                <img src={} />
+            </div>
+            <div>
+                <p>React</p>
+                <img src={} />
+            </div>
+            <div>
+                <p>Node</p>
+                <img src={} />
+            </div>
+            <div>
+                <p>Postgres</p>
+                <img src={} />
+            </div>
+            <div>
+                <p>Sqlite3</p>
+                <img src={} />
+            </div>
+            <div>
+                <p>Python</p>
+                <img src={} />
+            </div>
+            <div>
+                <p>Liquid</p>
+                <img src={} />
+            </div>
+            <div>
+                <p>Git</p>
                 <img src={} />
             </div>
           </div>
