@@ -12,7 +12,6 @@ import {
   StyledProps,
   AboutMe,
   StyledMe,
-  StyledChart,
   StyledText,
   HexaTop,
   HexaMid,

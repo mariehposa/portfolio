@@ -27,7 +27,7 @@ export const StyledDiv = styled.div`
   div {
     width: 5rem;
     height: 0.2rem;
-    margin-left: 1.3rem;
+    margin-left: 3rem;
     background: #04c2c9;
 
     @media (max-width: 800px) {
@@ -89,6 +89,7 @@ export const StyledMe = styled.div`
   /* margin-left: 4rem; */
   font-family: "Quicksand", sans-serif;
   text-align: center;
+  line-height: 2rem;
 
   @media (max-width: 800px) {
     /* margin-left: 0; */
