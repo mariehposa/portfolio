@@ -81,6 +81,8 @@ export default function About() {
         <AboutMe>
           <StyledMe>
             <img src={owner} alt="mariam adedeji" />
+          </StyledMe>
+          <StyledMe>
             <p>
               Hi, my name is <span>Mariam Adedeji</span>. I'm a full-stack web
               developer with excellent communication skills, systematic and
@@ -91,7 +93,6 @@ export default function About() {
               <span>Let's make something special... Cheers!!!</span>
             </p>
           </StyledMe>
-          
         </AboutMe>
       </Zoom>
     </StyledAll>
