@@ -86,17 +86,17 @@ export const AboutMe = styled.div`
 
 export const StyledMe = styled.div`
   width: 45%;
-  margin-left: 4rem;
+  /* margin-left: 4rem; */
   font-family: "Quicksand", sans-serif;
   text-align: center;
 
   @media (max-width: 800px) {
-    margin-left: 0;
+    /* margin-left: 0; */
   }
 
   @media (max-width: 500px) {
     width: 100%;
-    margin-left: 0;
+    /* margin-left: 0; */
   }
 
   img {
