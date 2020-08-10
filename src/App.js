@@ -5,6 +5,7 @@ import Header from "./components/header/header";
 import About from "./components/about/about";
 import Portfolio from "./components/portfolio/portfolio";
 import Navigation, {BurgerMenu} from "./components/navigation/navigation";
+import Skills from "./components/skills/skills";
 import Sticky from 'react-headroom';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <BurgerMenu isOpen = {isMenuOpen} onStateChange = {(state) => setMenuOpen(state.isOpen)} setMenuOpen={setMenuOpen} />
       <Header />
       <About />
+      <Skills />
       <Portfolio />
       <Contact />
       <Footer />
