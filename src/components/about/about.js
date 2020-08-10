@@ -1,5 +1,4 @@
 import React from "react";
-import SkillBar from "react-skillbars";
 import fast from "./img/001-fast.png";
 import responsive from "./img/002-responsive.png";
 import intuitive from "./img/004-lightbulb.png";
@@ -19,57 +18,6 @@ import {
   HexaMid,
   HexaBottom,
 } from "./styles";
-
-const skills = [
-  {
-    type: "HTML",
-    level: 90,
-  },
-  {
-    type: "CSS",
-    level: 80,
-  },
-  {
-    type: "Javascript",
-    level: 70,
-  },
-  {
-    type: "React",
-    level: 75,
-  },
-  {
-    type: "Redux",
-    level: 70,
-  },
-  {
-    type: "Node",
-    level: 65,
-  },
-  {
-    type: "Sqlite3",
-    level: 60,
-  },
-  {
-    type: "Postgres",
-    level: 50,
-  },
-  {
-    type: "Python",
-    level: 40,
-  },
-  {
-    type: "Liquid",
-    level: 30,
-  },
-];
-
-const colors = {
-  bar: "#04C2C9",
-  title: {
-    text: "#ffffff",
-    background: "#04c2c9",
-  },
-};
 
 export default function About() {
   return (
@@ -143,9 +91,7 @@ export default function About() {
               <span>Let's make something special... Cheers!!!</span>
             </p>
           </StyledMe>
-          <StyledChart>
-            <SkillBar skills={skills} colors={colors} />
-          </StyledChart>
+          
         </AboutMe>
       </Zoom>
     </StyledAll>
