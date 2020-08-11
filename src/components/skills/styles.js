@@ -121,46 +121,7 @@ export const StyledMe = styled.div`
   }
 `;
 
-export const StyledChart = styled.div`
-  width: 55%;
-  margin-left: 4rem;
-
-  @media (max-width: 800px) {
-    width: 50%;
-    margin-left: 1rem;
-  }
-
-  @media (max-width: 500px) {
-    width: 100%;
-    margin-left: 0;
-    margin-top: 2rem;
-  }
-`;
-
 export const StyledText = styled.h5`
   font-weight: bold;
   font-size: 1.2rem;
-`;
-
-export const HexaTop = styled.div`
-  width: 0;
-  margin: 0 auto;
-  border-bottom: 30px solid #64c7cc;
-  border-left: 52px solid transparent;
-  border-right: 52px solid transparent;
-`;
-
-export const HexaMid = styled.div`
-  width: 104px;
-  margin: 0 auto;
-  height: 60px;
-  background-color: #64c7cc;
-`;
-
-export const HexaBottom = styled.div`
-  width: 0;
-  margin: 0 auto;
-  border-top: 30px solid #64c7cc;
-  border-left: 52px solid transparent;
-  border-right: 52px solid transparent;
 `;
