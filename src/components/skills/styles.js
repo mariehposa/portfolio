@@ -27,101 +27,25 @@ export const StyledDiv = styled.div`
   div {
     width: 5rem;
     height: 0.2rem;
-    margin-left: 3rem;
+    margin-left: 1.2rem;
     background: #04c2c9;
 
     @media (max-width: 800px) {
-      margin-left: 1.5rem;
+      margin-left: 1rem;
     }
 
     @media (max-width: 500px) {
-      margin-left: 1.5rem;
+      margin-left: 1rem;
     }
   }
 `;
 
-export const StyledProps = styled.div`
+export const StyledSkills = styled.div`
   display: flex;
   font-family: "Quicksand", sans-serif;
   text-align: center;
 
   > div {
     display: flex;
-
-    @media (max-width: 800px) {
-      flex-direction: column;
-    }
-
-    > div {
-      justify-content: space-around;
-      margin-top: 2rem;
-
-      > p {
-        font-size: 1.2rem;
-        @media (max-width: 500px) {
-          font-size: 1.1rem;
-        }
-      }
-    }
-
-    img {
-      align-self: center;
-    }
-
-    h3 {
-      font-size: 1.2rem;
-      font-weight: bold;
-    }
   }
-`;
-
-export const AboutMe = styled.div`
-  display: flex;
-  padding: 2rem 0;
-
-  @media (max-width: 500px) {
-    flex-direction: column;
-  }
-`;
-
-export const StyledMe = styled.div`
-  width: 45%;
-  /* margin-left: 4rem; */
-  font-family: "Quicksand", sans-serif;
-  text-align: center;
-  line-height: 2rem;
-
-  @media (max-width: 800px) {
-    /* margin-left: 0; */
-  }
-
-  @media (max-width: 500px) {
-    width: 100%;
-    /* margin-left: 0; */
-  }
-
-  img {
-    width: 50%;
-    margin-bottom: 1rem;
-    box-shadow: 7px 7px 0px 0px #04c2c9;
-  }
-
-  span {
-    color: #04c2c9;
-  }
-
-  p {
-    font-size: 1.2rem;
-  }
-
-  > p {
-    @media (max-width: 500px) {
-      font-size: 1.1rem;
-    }
-  }
-`;
-
-export const StyledText = styled.h5`
-  font-weight: bold;
-  font-size: 1.2rem;
 `;

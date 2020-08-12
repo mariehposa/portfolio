@@ -14,7 +14,7 @@ import Zoom from "react-reveal/Zoom";
 import {
   StyledAll,
   StyledDiv,
-  StyledProps
+  StyledTotalSkills
 } from "./styles";
 
 export default function About() {
@@ -26,8 +26,7 @@ export default function About() {
       </StyledDiv>
 
       <Zoom top cascade>
-        <StyledProps>
-          <div>
+        <StyledTotalSkills>
             <div>
                 <p>Html</p>
                 <img src={html} />
@@ -68,8 +67,7 @@ export default function About() {
                 <p>Git</p>
                 <img src={git} />
             </div>
-          </div>
-        </StyledProps>
+        </StyledTotalSkills>
       </Zoom>
     </StyledAll>
   );
