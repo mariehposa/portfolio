@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 export const StyledAll = styled.div`
-  padding: 5rem;
+  padding: 4rem 5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   
   @media (max-width: 800px) {
-    padding: 5rem;
+    padding: 4rem 5rem;
   }
 
   @media (max-width: 500px) {
@@ -31,11 +31,11 @@ export const StyledDiv = styled.div`
     background: #04c2c9;
 
     @media (max-width: 800px) {
-      margin-left: 1.5rem;
+      margin-left: 3.2rem;
     }
 
     @media (max-width: 500px) {
-      margin-left: 3.5rem;
+      margin-left: 3.2rem;
     }
   }
 `;
@@ -55,6 +55,10 @@ export const StyledMe = styled.div`
   text-align: center;
   line-height: 2rem;
 
+  @media (max-width: 800px) {
+    width: 50%;
+  }
+
   @media (max-width: 500px) {
     width: 100%;
   }
@@ -63,6 +67,11 @@ export const StyledMe = styled.div`
     width: 50%;
     margin-bottom: 1rem;
     box-shadow: 7px 7px 0px 0px #04c2c9;
+
+    @media (max-width: 800px) {
+      width: 70%;
+      margin-top: 3rem;
+    }
   }
 
   span {

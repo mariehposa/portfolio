@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 export const StyledAll = styled.div`
-  padding: 5rem;
+  padding: 4rem 5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   
   @media (max-width: 800px) {
-    padding: 5rem;
+    padding: 4rem 5rem;
   }
 
   @media (max-width: 500px) {

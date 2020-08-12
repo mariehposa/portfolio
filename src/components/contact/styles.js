@@ -2,17 +2,16 @@ import styled from "styled-components";
 import { Form, Field } from "formik";
 
 export const StyledAll = styled.div`
-  padding: 5rem;
+  padding: 4rem 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  /* background: #252934; */
   border-top-left-radius: 10%;
   border-top-right-radius: 10%;
 
   @media (max-width: 500px) {
-    padding: 5rem 1rem;
+    padding: 4rem 1rem;
   }
 
   p {
@@ -44,11 +43,11 @@ export const StyledDiv = styled.div`
     background: #04c2c9;
 
     @media (max-width: 800px) {
-      margin-left: 3.5rem;
+      margin-left: 2.5rem;
     }
 
     @media (max-width: 500px) {
-      margin-left: 1.9rem;
+      margin-left: 2rem;
     }
   }
 `;

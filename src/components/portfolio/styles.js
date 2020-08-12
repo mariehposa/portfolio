@@ -2,14 +2,14 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const StyledAll = styled.div`
-  padding: 5rem;
+  padding: 4rem 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 
   @media (max-width: 800px) {
-    padding: 5rem 1rem;
+    padding: 4rem 1rem;
   }
 
   @media (max-width: 500px) {
