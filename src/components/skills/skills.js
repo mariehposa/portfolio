@@ -15,7 +15,7 @@ import {
   StyledAll,
   StyledDiv,
   StyledTotalSkills,
-  StyledSkills
+  StyledSkill
 } from "./styles";
 
 export default function About() {

@@ -40,12 +40,12 @@ export const StyledDiv = styled.div`
   }
 `;
 
-export const StyledSkills = styled.div`
+export const StyledTotalSkills = styled.div`
+  display: flex;
+`;
+
+export const StyledSkill = styled.div`
   display: flex;
   font-family: "Quicksand", sans-serif;
   text-align: center;
-
-  > div {
-    display: flex;
-  }
 `;
