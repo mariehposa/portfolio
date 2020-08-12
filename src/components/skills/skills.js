@@ -1,6 +1,14 @@
 import React from "react";
 import "../../App.css";
-import Zoom from "react-reveal/Zoom";
+import css from "./img/css.png"
+import html from "./img/html.png"
+import git from "./img/git.png"
+import javascript from "./img/javascript.png"
+import liquid from "./img/liquid.png"
+import postgres from "./img/postgres.png"
+import python from "./img/python.png"
+import react from "./img/react.png"
+import sqlite from "react-reveal/sqlite";
 import {
   StyledAll,
   StyledDiv,
