@@ -14,7 +14,8 @@ import Zoom from "react-reveal/Zoom";
 import {
   StyledAll,
   StyledDiv,
-  StyledTotalSkills
+  StyledTotalSkills,
+  StyledSkills
 } from "./styles";
 
 export default function About() {
@@ -27,46 +28,46 @@ export default function About() {
 
       <Zoom top cascade>
         <StyledTotalSkills>
-            <div>
+            <StyledSkill>
                 <p>Html</p>
                 <img src={html} />
-            </div>
-            <div>
+            </StyledSkill>
+            <StyledSkill>
                 <p>Css</p>
                 <img src={css} />
-            </div>
-            <div>
+            </StyledSkill>
+            <StyledSkill>
                 <p>Javascript</p>
                 <img src={javascript} />
-            </div>
-            <div>
+            </StyledSkill>
+            <StyledSkill>
                 <p>React</p>
                 <img src={react} />
-            </div>
-            <div>
+            </StyledSkill>
+            <StyledSkill>
                 <p>Node</p>
                 <img src={node} />
-            </div>
-            <div>
+            </StyledSkill>
+            <StyledSkill>
                 <p>Postgres</p>
                 <img src={postgres} />
-            </div>
-            <div>
+            </StyledSkill>
+            <StyledSkill>
                 <p>Sqlite3</p>
                 <img src={sqlite} />
-            </div>
-            <div>
+            </StyledSkill>
+            <StyledSkill>
                 <p>Python</p>
                 <img src={python} />
-            </div>
-            <div>
+            </StyledSkill>
+            <StyledSkill>
                 <p>Shopify</p>
                 <img src={shopify} />
-            </div>
-            <div>
+            </StyledSkill>
+            <StyledSkill>
                 <p>Git</p>
                 <img src={git} />
-            </div>
+            </StyledSkill>
         </StyledTotalSkills>
       </Zoom>
     </StyledAll>
