@@ -42,10 +42,14 @@ export const StyledDiv = styled.div`
 
 export const StyledTotalSkills = styled.div`
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 `;
 
 export const StyledSkill = styled.div`
   display: flex;
   font-family: "Quicksand", sans-serif;
   text-align: center;
+  margin: 2rem 3rem;
+  display: unset;
 `;
