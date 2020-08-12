@@ -52,4 +52,8 @@ export const StyledSkill = styled.div`
   text-align: center;
   margin: 2rem 3rem;
   display: unset;
+
+  @media (max-width: 500px) {
+    margin: 2rem 1.5rem;
+  }
 `;
