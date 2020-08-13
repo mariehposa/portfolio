@@ -66,11 +66,17 @@ export const StyledMe = styled.div`
   img {
     width: 50%;
     margin-bottom: 1rem;
+    margin-left: 5rem;
     box-shadow: 7px 7px 0px 0px #04c2c9;
 
     @media (max-width: 800px) {
       width: 70%;
       margin-top: 3rem;
+      margin-left: 0;
+    }
+
+    @media (max-width: 500px) {
+      margin-left: 0;
     }
   }
 
