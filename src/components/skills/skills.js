@@ -26,7 +26,7 @@ export default function About() {
         <div></div>
       </StyledDiv>
 
-      <Zoom top cascade>
+      <Zoom>
         <StyledTotalSkills>
             <StyledSkill>
                 <p>Html</p>
