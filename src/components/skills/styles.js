@@ -50,8 +50,12 @@ export const StyledSkill = styled.div`
   display: flex;
   font-family: "Quicksand", sans-serif;
   text-align: center;
-  margin: 2rem 3rem;
+  margin: 2rem 4rem;
   display: unset;
+
+  @media (max-width: 800px) {
+    margin: 2rem 3rem;
+  }
 
   @media (max-width: 500px) {
     margin: 2rem 1.5rem;
