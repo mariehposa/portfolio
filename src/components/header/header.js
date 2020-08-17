@@ -14,7 +14,7 @@ export default function Header() {
             Hello, I'm
             <span> Mariam Adedeji.</span>
           </p>
-          <p>I'm a full stack web developer.</p>
+          <p>I'm a Software Engineer.</p>
           <FancyDiv> 
             <span><p>View my work</p> 
             <img src={arrow} alt="arrow-down"/></span>
