@@ -76,8 +76,8 @@ export const BurgerMenu = (props) => {
         <StyledLink onClick={() => navigate("portfolio")} to="/portfolio">
           PORTFOLIO
         </StyledLink>
-        <StyledLink onClick={() => navigate("project")} to="/project">
-          PROJECTS
+        <StyledLink onClick={() => navigate("skills")} to="/skills">
+          SKILLS
         </StyledLink>
         <StyledLink onClick={() => navigate("contact")} to="/contact">
           CONTACT
