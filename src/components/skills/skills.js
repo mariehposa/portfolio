@@ -17,6 +17,7 @@ import less from "./img/less.jpg"
 import vue from "./img/vue.png"
 import vercel from "./img/vercel.png"
 import netlify from "./img/netlify.jpg"
+import heroku from "./img/heroku.jpg"
 import Zoom from "react-reveal/Zoom";
 import {
   StyledAll,
@@ -104,8 +105,8 @@ export default function About() {
                 <img src={netlify} alt="stack-icon" className="s-icon" />
             </StyledSkill>
             <StyledSkill>
-                <p>Git</p>
-                <img src={git} alt="stack-icon" className="s-icon" />
+                <p>Heroku</p>
+                <img src={heroku} alt="stack-icon" className="s-icon" />
             </StyledSkill>
         </StyledTotalSkills>
       </Zoom>
