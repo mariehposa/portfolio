@@ -16,8 +16,8 @@ import sass from "./img/sass.png"
 import less from "./img/less.jpg"
 import vue from "./img/vue.png"
 import vercel from "./img/vercel.png"
-import netlify from "./img/netlify.jpg"
-import heroku from "./img/heroku.jpg"
+import netlify from "./img/netlify.png"
+import heroku from "./img/heroku.png"
 import Zoom from "react-reveal/Zoom";
 import {
   StyledAll,
