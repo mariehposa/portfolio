@@ -16,6 +16,7 @@ import sass from "./img/sass.png"
 import less from "./img/less.jpg"
 import vue from "./img/vue.png"
 import vercel from "./img/vercel.png"
+import netlify from "./img/netlify.jpg"
 import Zoom from "react-reveal/Zoom";
 import {
   StyledAll,
@@ -99,8 +100,8 @@ export default function About() {
                 <img src={vercel} alt="stack-icon" className="s-icon" />
             </StyledSkill>
             <StyledSkill>
-                <p>Git</p>
-                <img src={git} alt="stack-icon" className="s-icon" />
+                <p>Netlify</p>
+                <img src={netlify} alt="stack-icon" className="s-icon" />
             </StyledSkill>
             <StyledSkill>
                 <p>Git</p>
