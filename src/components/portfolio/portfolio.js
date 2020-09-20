@@ -4,11 +4,10 @@ import split from "./images/splitTheBill.png";
 import chef from "./images/chefPortfolio.png";
 import hairCare from "./images/hairCare.png";
 import rickMorty from "./images/rickAndMorty.png";
-import starwars from "./images/starwars.png";
+import CryptoCracker from "./images/CryptoCracker.png";
 import flora from "./images/flora.png";
 import robot from "./images/robot.png";
 import essentialism from "./images/essentialism.png";
-import magicBrain from "./images/magicBrain.png"
 import Fade from 'react-reveal/Fade';
 import hackton from "./images/hackton.png"
 import {
@@ -109,7 +108,7 @@ export function EReact() {
         websiteLink="https://react-redux-kktstb7je.now.sh/"
       />
       <CustomFlippy
-        projectImage={crypto}
+        projectImage={CryptoCracker}
         imageAlt="CryptoCracker"
         projectTitle="Crypto Cracker"
         projectStack="React and pure Javascript"
