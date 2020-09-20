@@ -109,12 +109,12 @@ export function EReact() {
         websiteLink="https://react-redux-kktstb7je.now.sh/"
       />
       <CustomFlippy
-        projectImage={magicBrain}
-        imageAlt="magic brain"
-        projectTitle="Magic brain"
+        projectImage={crypto}
+        imageAlt="CryptoCracker"
+        projectTitle="Crypto Cracker"
         projectStack="React and pure Javascript"
-        gitHubLink="https://github.com/mariehposa/magicBrain"
-        websiteLink="https://magicbrain-llvcxf9e0.now.sh/"
+        gitHubLink="https://github.com/mariehposa/dark-mode/tree/Mariam-Adedeji"
+        websiteLink="https://dark-mode-six.vercel.app/"
       />
     </>
   );
