@@ -15,6 +15,7 @@ import styled from "./img/styled.png"
 import sass from "./img/sass.png"
 import less from "./img/less.jpg"
 import vue from "./img/vue.png"
+import vercel from "./img/vercel.png"
 import Zoom from "react-reveal/Zoom";
 import {
   StyledAll,
@@ -88,6 +89,18 @@ export default function About() {
             <StyledSkill>
                 <p>Shopify</p>
                 <img src={shopify} alt="stack-icon" className="s-icon" />
+            </StyledSkill>
+            <StyledSkill>
+                <p>Git</p>
+                <img src={git} alt="stack-icon" className="s-icon" />
+            </StyledSkill>
+            <StyledSkill>
+                <p>Vercel</p>
+                <img src={vercel} alt="stack-icon" className="s-icon" />
+            </StyledSkill>
+            <StyledSkill>
+                <p>Git</p>
+                <img src={git} alt="stack-icon" className="s-icon" />
             </StyledSkill>
             <StyledSkill>
                 <p>Git</p>
