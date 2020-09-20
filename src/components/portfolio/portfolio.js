@@ -93,14 +93,6 @@ export function EReact() {
         websiteLink="https://mariehposa.github.io/monsters-robot/"
       />
       <CustomFlippy
-        projectImage={starwars}
-        imageAlt="StarWars"
-        projectTitle="StarWars"
-        projectStack="React and pure Javascript"
-        gitHubLink="https://github.com/mariehposa/Sprint-Challenge-React-Wars"
-        websiteLink="https://starwars.mariehposa.now.sh/"
-      />
-      <CustomFlippy
         projectImage={hairCare}
         imageAlt="Hair Care"
         projectTitle="Hair Care"
