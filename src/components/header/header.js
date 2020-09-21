@@ -11,10 +11,10 @@ export default function Header() {
       <Zoom>
         <Styledtext>
           <p>
-            Hello, I'm
+            I'm
             <span> Mariam Adedeji.</span>
           </p>
-          <p>I'm a Software Engineer.</p>
+          <p className= "small-txt">A Software Engineer.</p>
           <FancyDiv> 
             <span><p>View my work</p> 
             <img src={arrow} alt="arrow-down"/></span>

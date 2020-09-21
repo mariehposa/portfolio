@@ -17,13 +17,13 @@ export const HeaderStyle = styled.div`
 export const Styledtext = styled.div`
   > p {
     color: white;
-    font-size: 2.4rem;
+    font-size: 3rem;
     font-weight: bold;
     font-family: "Noto Sans KR", sans-serif;
-    line-height: 1rem;
+    line-height: 1.5rem;
 
     @media (max-width: 500px) {
-      font-size: 1.5rem;
+      font-size: 1.7rem;
       line-height: 0.5rem;
     }
 

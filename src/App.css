@@ -94,3 +94,8 @@
   width: 50px;
   border-radius: 5px;
 }
+
+.small-txt {
+  font-size: 1.5rem !important;
+  text-transform: uppercase;
+}
