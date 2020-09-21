@@ -52,7 +52,7 @@ export default function Portfolio() {
 function All() {
   return (
     <>
-      <Html /> <EReact /> <Redux /> <Node />
+      <Redux /> <EReact /> <Node /> <Html />
     </>
   );
 }
