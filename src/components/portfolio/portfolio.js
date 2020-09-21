@@ -123,20 +123,20 @@ export function Redux() {
   return (
     <>
       <CustomFlippy
-        projectImage={split}
-        imageAlt="Split the Bill"
-        projectTitle="Split the Bill"
-        projectStack="React Redux"
-        gitHubLink="https://github.com/mariehposa/Split-the-bill"
-        websiteLink="https://split-the-bill.mariehposa.now.sh/"
-      />
-      <CustomFlippy
         projectImage={hackton}
         imageAlt="Hackathon portal"
         projectTitle="Hackathon portal"
         projectStack="React Redux"
         gitHubLink="https://github.com/LABS-EU3/hackton-frontend"
         websiteLink="https://hackton.co/"
+      />
+      <CustomFlippy
+        projectImage={split}
+        imageAlt="Split the Bill"
+        projectTitle="Split the Bill"
+        projectStack="React Redux"
+        gitHubLink="https://github.com/mariehposa/Split-the-bill"
+        websiteLink="https://split-the-bill.mariehposa.now.sh/"
       />
     </>
   );
