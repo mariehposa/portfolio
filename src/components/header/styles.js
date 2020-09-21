@@ -23,8 +23,8 @@ export const Styledtext = styled.div`
     line-height: 1.5rem;
 
     @media (max-width: 500px) {
-      font-size: 1.7rem;
-      line-height: 0.5rem;
+      font-size: 2rem;
+      line-height: 1rem;
     }
 
     span {

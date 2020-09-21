@@ -39,7 +39,7 @@ export const StyledA = styled.a`
     border-radius: 2px;
 
     @media (max-width: 500px) {
-        padding: .5rem;
+        padding: .6rem;
         margin: 0 .5rem;
   }
 

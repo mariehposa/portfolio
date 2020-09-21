@@ -84,12 +84,6 @@
   padding-top: 10px;
 }
 
-@media (max-width: 500px) {
-  .flip-card:focus .flip-card-inner {
-    transform: rotateY(360deg);
-  }
-}
-
 .s-icon {
   width: 50px;
   border-radius: 5px;
@@ -98,4 +92,14 @@
 .small-txt {
   font-size: 1.5rem !important;
   text-transform: uppercase;
+}
+
+@media (max-width: 500px) {
+  .flip-card:focus .flip-card-inner {
+    transform: rotateY(360deg);
+  }
+
+  .small-txt {
+    font-size: 1.3rem !important;
+  }
 }
