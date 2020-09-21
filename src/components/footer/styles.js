@@ -36,6 +36,7 @@ export const StyledA = styled.a`
     text-decoration: none;
     text-align: center;
     align-items: center;
+    border-radius: 2px;
 
     @media (max-width: 500px) {
         padding: .5rem;
