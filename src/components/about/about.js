@@ -30,7 +30,6 @@ export default function About() {
               building, designing, testing, and delivering front-end and
               back-end web applications using different programming languages
               and technologies.{" "}
-              <span>Let's make something special... Cheers!!!</span>
             </p>
           </StyledMe>
         </AboutMe>
