@@ -72,6 +72,7 @@ export const StyleField = styled(Field)`
   margin: 0.3rem 0;
   font-size: 1rem;
   font-family: "Quicksand",sans-serif;
+  border-radius: 3px;
 `;
 
 export const StyleArea = styled.textarea`
@@ -82,6 +83,7 @@ export const StyleArea = styled.textarea`
   margin: 0.3rem 0;
   font-size: 1rem;
   font-family: "Quicksand",sans-serif;
+  border-radius: 3px;
 `;
 
 export const StyledButton = styled.button`
@@ -93,6 +95,7 @@ export const StyledButton = styled.button`
   background: #252934;
   margin-top: 0.3rem;
   align-self: flex-end;
+  border-radius: 5px;
 
   &:hover {
     background: #04c2c9;
