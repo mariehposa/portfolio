@@ -150,7 +150,7 @@ export function Node() {
         imageAlt="Essentialism"
         projectTitle="Essentialism"
         projectStack="Node.js and PostgreSQL"
-        gitHubLink="https://github.com/essentialism-11-2019/mariam-server"
+        gitHubLink="https://github.com/mariehposa/essentialism"
         websiteLink="https://documenter.getpostman.com/view/9533421/SW7Z4UGG?version=latest"
       />
     </>
