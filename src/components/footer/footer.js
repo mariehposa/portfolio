@@ -20,9 +20,9 @@ export default function Footer() {
             <StyledA href="https://linkedin.com/in/adedeji-mariam" title="linkedin profile">
                 <img src={linkedin} alt="linkedin logo"/>
             </StyledA>
-            <StyledA href="https://twitter.com/Mariehposah?s=09" title="twitter profile">
+            {/* <StyledA href="https://twitter.com/Mariehposah?s=09" title="twitter profile">
                 <img src={twitter} alt="twitter logo"/>
-            </StyledA>
+            </StyledA> */}
             <StyledA href="https://dev.to/mariehposa" title="dev profile">
                 <img src={dev} alt="dev logo"/>
             </StyledA>
