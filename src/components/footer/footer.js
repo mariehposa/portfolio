@@ -1,6 +1,6 @@
 import React from 'react';
 import dev from './logo/001-dev.png';
-import twitter from './logo/002-twitter.png';
+// import twitter from './logo/002-twitter.png';
 import linkedin from './logo/003-linkedin.png';
 import gmail from './logo/004-gmail.png';
 import github from './logo/005-github.png';
