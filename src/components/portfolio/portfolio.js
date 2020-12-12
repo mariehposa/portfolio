@@ -52,7 +52,7 @@ export default function Portfolio() {
 function All() {
   return (
     <>
-      <EReact /> <Node /> <Redux />  <Html />
+      <EReact /> <Redux /> <Node /> <Html />
     </>
   );
 }
@@ -76,6 +76,14 @@ export function EReact() {
   return (
     <>
       <CustomFlippy
+        projectImage={cryptoCracker}
+        imageAlt="CryptoCracker"
+        projectTitle="Crypto Cracker"
+        projectStack="React and pure Javascript"
+        gitHubLink="https://github.com/mariehposa/dark-mode/tree/Mariam-Adedeji"
+        websiteLink="https://dark-mode-six.vercel.app/"
+      />
+      <CustomFlippy
         projectImage={flora}
         imageAlt="flora landing page"
         projectTitle="Flora landing page"
@@ -92,14 +100,6 @@ export function EReact() {
         websiteLink="https://mariehposa.github.io/monsters-robot/"
       />
       <CustomFlippy
-        projectImage={hairCare}
-        imageAlt="Hair Care"
-        projectTitle="Hair Care"
-        projectStack="React and pure Javascript"
-        gitHubLink="https://github.com/mariehposa/HairCare/tree/hosting"
-        websiteLink="https://sleepy-thompson-659f81.netlify.com/"
-      />
-      <CustomFlippy
         projectImage={rickMorty}
         imageAlt="Rick and Morty"
         projectTitle="Rick and Morty"
@@ -108,12 +108,12 @@ export function EReact() {
         websiteLink="https://react-redux-kktstb7je.now.sh/"
       />
       <CustomFlippy
-        projectImage={cryptoCracker}
-        imageAlt="CryptoCracker"
-        projectTitle="Crypto Cracker"
+        projectImage={hairCare}
+        imageAlt="Hair Care"
+        projectTitle="Hair Care"
         projectStack="React and pure Javascript"
-        gitHubLink="https://github.com/mariehposa/dark-mode/tree/Mariam-Adedeji"
-        websiteLink="https://dark-mode-six.vercel.app/"
+        gitHubLink="https://github.com/mariehposa/HairCare/tree/hosting"
+        websiteLink="https://sleepy-thompson-659f81.netlify.com/"
       />
     </>
   );
@@ -123,20 +123,20 @@ export function Redux() {
   return (
     <>
       <CustomFlippy
+          projectImage={split}
+          imageAlt="Split the Bill"
+          projectTitle="Split the Bill"
+          projectStack="React Redux"
+          gitHubLink="https://github.com/mariehposa/Split-the-bill"
+          websiteLink="https://split-the-bill.mariehposa.now.sh/"
+      />
+      <CustomFlippy
         projectImage={hackton}
         imageAlt="Hackathon portal"
         projectTitle="Hackathon portal"
         projectStack="React Redux"
         gitHubLink="https://github.com/LABS-EU3/hackton-frontend"
         websiteLink="https://hackton.co/"
-      />
-      <CustomFlippy
-        projectImage={split}
-        imageAlt="Split the Bill"
-        projectTitle="Split the Bill"
-        projectStack="React Redux"
-        gitHubLink="https://github.com/mariehposa/Split-the-bill"
-        websiteLink="https://split-the-bill.mariehposa.now.sh/"
       />
     </>
   );
