@@ -8,14 +8,14 @@ import cryptoCracker from "./images/cryptoCracker.png";
 import flora from "./images/flora.png";
 import robot from "./images/robot.png";
 import essentialism from "./images/essentialism.png";
-import Fade from 'react-reveal/Fade';
-import hackton from "./images/hackton.png"
+import Fade from "react-reveal/Fade";
+import hackton from "./images/hackton.png";
 import {
   StyledAll,
   StyledNav,
   StyledDiv,
   StyledLink,
-  StyledTotal
+  StyledTotal,
 } from "./styles";
 
 import CustomFlippy from "./ProjectFlippy";
@@ -37,8 +37,11 @@ export default function Portfolio() {
       </StyledNav>
       <Fade bottom cascade>
         <StyledTotal>
-          <Route exact path="/" component={All} />
-          <Route exact path="/portfolio" component={All} />
+          <Route
+            exact
+            path={["/", "/about", "/skills", "/contact", "/portfolio"]}
+            component={All}
+          />
           <Route path="/portfolio/html" component={Html} />
           <Route path="/portfolio/react" component={EReact} />
           <Route path="/portfolio/redux" component={Redux} />
@@ -123,12 +126,12 @@ export function Redux() {
   return (
     <>
       <CustomFlippy
-          projectImage={split}
-          imageAlt="Split the Bill"
-          projectTitle="Split the Bill"
-          projectStack="React Redux"
-          gitHubLink="https://github.com/mariehposa/Split-the-bill"
-          websiteLink="https://split-the-bill.mariehposa.now.sh/"
+        projectImage={split}
+        imageAlt="Split the Bill"
+        projectTitle="Split the Bill"
+        projectStack="React Redux"
+        gitHubLink="https://github.com/mariehposa/Split-the-bill"
+        websiteLink="https://split-the-bill.mariehposa.now.sh/"
       />
       <CustomFlippy
         projectImage={hackton}
