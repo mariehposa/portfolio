@@ -1,13 +1,8 @@
 import React from "react";
-import owner from "./img/owner.jpg";
+import owner from "./img/owner.png";
 import "../../App.css";
 import Zoom from "react-reveal/Zoom";
-import {
-  StyledAll,
-  StyledDiv,
-  AboutMe,
-  StyledMe,
-} from "./styles";
+import { StyledAll, StyledDiv, AboutMe, StyledMe } from "./styles";
 
 export default function About() {
   return (
