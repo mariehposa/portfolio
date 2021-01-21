@@ -2,7 +2,7 @@ import React from "react";
 import { Route } from "react-router-dom";
 import split from "./images/splitTheBill.png";
 import chef from "./images/chefPortfolio.png";
-import hairCare from "./images/hairCare.png";
+import theShoppies from "./images/hairCare.png";
 import rickMorty from "./images/rickAndMorty.png";
 import cryptoCracker from "./images/cryptoCracker.png";
 import flora from "./images/flora.png";
@@ -55,7 +55,7 @@ export default function Portfolio() {
 function All() {
   return (
     <>
-      <EReact /> <Redux /> <Node /> <Html />
+      <Redux /> <EReact /> <Node /> <Html />
     </>
   );
 }
@@ -110,14 +110,6 @@ export function EReact() {
         gitHubLink="https://github.com/mariehposa/Sprint-Challenge-Single-Page-Apps"
         websiteLink="https://react-redux-kktstb7je.now.sh/"
       />
-      <CustomFlippy
-        projectImage={hairCare}
-        imageAlt="Hair Care"
-        projectTitle="Hair Care"
-        projectStack="React and pure Javascript"
-        gitHubLink="https://github.com/mariehposa/HairCare/tree/hosting"
-        websiteLink="https://sleepy-thompson-659f81.netlify.com/"
-      />
     </>
   );
 }
@@ -125,6 +117,14 @@ export function EReact() {
 export function Redux() {
   return (
     <>
+      <CustomFlippy
+        projectImage={theShoppies}
+        imageAlt="The Shoppies"
+        projectTitle="The Shoppies"
+        projectStack="React and pure Javascript"
+        gitHubLink="https://github.com/mariehposa/shopify-challenge"
+        websiteLink="https://mariam-adedeji-shopify-challenge.netlify.app"
+      />
       <CustomFlippy
         projectImage={split}
         imageAlt="Split the Bill"
