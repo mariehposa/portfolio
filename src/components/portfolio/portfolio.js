@@ -2,7 +2,7 @@ import React from "react";
 import { Route } from "react-router-dom";
 import split from "./images/splitTheBill.png";
 import chef from "./images/chefPortfolio.png";
-import theShoppies from "./images/hairCare.png";
+import theShoppies from "./images/theShoppies.png";
 import rickMorty from "./images/rickAndMorty.png";
 import cryptoCracker from "./images/cryptoCracker.png";
 import flora from "./images/flora.png";
@@ -121,7 +121,7 @@ export function Redux() {
         projectImage={theShoppies}
         imageAlt="The Shoppies"
         projectTitle="The Shoppies"
-        projectStack="React and pure Javascript"
+        projectStack="React Redux"
         gitHubLink="https://github.com/mariehposa/shopify-challenge"
         websiteLink="https://mariam-adedeji-shopify-challenge.netlify.app"
       />
