@@ -1,15 +1,13 @@
 import React from "react";
 import { Route } from "react-router-dom";
 import split from "./images/splitTheBill.png";
-import chef from "./images/chefPortfolio.png";
 import theShoppies from "./images/theShoppies.png";
-import rickMorty from "./images/rickAndMorty.png";
 import cryptoCracker from "./images/cryptoCracker.png";
-import flora from "./images/flora.png";
-import robot from "./images/robot.png";
 import essentialism from "./images/essentialism.png";
 import Fade from "react-reveal/Fade";
 import hackton from "./images/hackton.png";
+import foxyPiah from "./images/foxyPiah.png";
+import dianeKroe from "./images/dianeKroe.jpg";
 import {
   StyledAll,
   StyledNav,
@@ -30,9 +28,8 @@ export default function Portfolio() {
       </StyledDiv>
       <StyledNav>
         <StyledLink to="/">ALL</StyledLink>
-        <StyledLink to="/portfolio/html">HTML</StyledLink>
         <StyledLink to="/portfolio/react">REACT</StyledLink>
-        <StyledLink to="/portfolio/redux">REDUX</StyledLink>
+        <StyledLink to="/portfolio/shopify">SHOPIFY</StyledLink>
         <StyledLink to="/portfolio/node">NODE</StyledLink>
       </StyledNav>
       <Fade bottom cascade>
@@ -42,9 +39,8 @@ export default function Portfolio() {
             path={["/", "/about", "/skills", "/contact", "/portfolio"]}
             component={All}
           />
-          <Route path="/portfolio/html" component={Html} />
           <Route path="/portfolio/react" component={EReact} />
-          <Route path="/portfolio/redux" component={Redux} />
+          <Route path="/portfolio/shopify" component={Shopify} />
           <Route path="/portfolio/node" component={Node} />
         </StyledTotal>
       </Fade>
@@ -55,66 +51,12 @@ export default function Portfolio() {
 function All() {
   return (
     <>
-      <Redux /> <EReact /> <Node /> <Html />
-    </>
-  );
-}
-
-export function Html() {
-  return (
-    <>
-      <CustomFlippy
-        projectImage={chef}
-        imageAlt="Chef-Portfolio"
-        projectTitle="Chef Portfolio"
-        projectStack="HTML and CSS"
-        gitHubLink="https://github.com/mariehposa/chef-portfolio"
-        websiteLink="https://goofy-perlman-9a4318.netlify.com/"
-      />
+      <EReact /> <Shopify /> <Node />
     </>
   );
 }
 
 export function EReact() {
-  return (
-    <>
-      <CustomFlippy
-        projectImage={cryptoCracker}
-        imageAlt="CryptoCracker"
-        projectTitle="Crypto Cracker"
-        projectStack="React and pure Javascript"
-        gitHubLink="https://github.com/mariehposa/dark-mode/tree/Mariam-Adedeji"
-        websiteLink="https://dark-mode-six.vercel.app/"
-      />
-      <CustomFlippy
-        projectImage={flora}
-        imageAlt="flora landing page"
-        projectTitle="Flora landing page"
-        projectStack="React and pure Javascript"
-        gitHubLink="https://github.com/mariehposa/flora-landing-page"
-        websiteLink="https://flora-landing-page.now.sh/"
-      />
-      <CustomFlippy
-        projectImage={robot}
-        imageAlt="Monster Robots"
-        projectTitle="Monster Robots"
-        projectStack="React and pure Javascript"
-        gitHubLink="https://github.com/mariehposa/monsters-robot/tree/master"
-        websiteLink="https://mariehposa.github.io/monsters-robot/"
-      />
-      <CustomFlippy
-        projectImage={rickMorty}
-        imageAlt="Rick and Morty"
-        projectTitle="Rick and Morty"
-        projectStack="React and pure Javascript"
-        gitHubLink="https://github.com/mariehposa/Sprint-Challenge-Single-Page-Apps"
-        websiteLink="https://react-redux-kktstb7je.now.sh/"
-      />
-    </>
-  );
-}
-
-export function Redux() {
   return (
     <>
       <CustomFlippy
@@ -124,6 +66,14 @@ export function Redux() {
         projectStack="React Redux"
         gitHubLink="https://github.com/mariehposa/shopify-challenge"
         websiteLink="https://mariam-adedeji-shopify-challenge.netlify.app"
+      />
+      <CustomFlippy
+        projectImage={cryptoCracker}
+        imageAlt="CryptoCracker"
+        projectTitle="Crypto Cracker"
+        projectStack="React and pure Javascript"
+        gitHubLink="https://github.com/mariehposa/dark-mode/tree/Mariam-Adedeji"
+        websiteLink="https://dark-mode-six.vercel.app/"
       />
       <CustomFlippy
         projectImage={split}
@@ -140,6 +90,29 @@ export function Redux() {
         projectStack="React Redux"
         gitHubLink="https://github.com/LABS-EU3/hackton-frontend"
         websiteLink="https://hackton.co/"
+      />
+    </>
+  );
+}
+
+export function Shopify() {
+  return (
+    <>
+      <CustomFlippy
+        projectImage={foxyPiah}
+        imageAlt="Foxy Piah"
+        projectTitle="Foxy Piah"
+        projectStack="Shopify"
+        gitHubLink="https://github.com/mariehposa/"
+        websiteLink="https://munaf-custom-theme.myshopify.com/"
+      />
+      <CustomFlippy
+        projectImage={dianeKroe}
+        imageAlt="Diane Kroe"
+        projectTitle="Diane Kroe"
+        projectStack="Shopify"
+        gitHubLink="https://github.com/mariehposa/"
+        websiteLink="https://dianekroe.com/"
       />
     </>
   );
