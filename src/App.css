@@ -1,105 +1,38 @@
-.Particles {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-}
-
-.darkModeToggle {
-  display: flex;
-  background: #f5f5f5;
-  border-radius: 50px;
-  border: 1px solid black;
-  height: 20px;
-  position: relative;
-  width: 40px;
-}
-
-.toggle {
-  background: #e31b6d;
-  border-radius: 50px;
-  height: 18px;
-  margin-top: 1px;
-  left: 0;
-  position: absolute;
-  transition: 0.2s;
-  width: 20px;
-}
-
-.toggled {
-  left: 20px;
-}
-
-.darkMode {
-  color: #ffffff;
-  background-color: #313843;
-}
-
-.flippy-front, .flippy-back {
-  background: #fff !important;
-}
-
-.flip-card {
-  background-color: transparent;
-  width: 350px;
-  height: 300px;
-  perspective: 1000px;
-  margin: 5px;
-}
-
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
+.App {
   text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-  -webkit-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
-  box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
-  border-radius: 5px;
 }
 
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
-  border-radius: 5px;
-}
-
-.flip-card-back {
-  background-color: white;
-  color: white;
-  transform: rotateY(180deg);
-}
-
-.flip-card-front {
-  padding-top: 10px;
-}
-
-.s-icon {
-  width: 50px;
-  border-radius: 5px;
-}
-
-.small-txt {
-  font-size: 1.5rem !important;
-  text-transform: uppercase;
-}
-
-@media (max-width: 500px) {
-  .flip-card:focus .flip-card-inner {
-    transform: rotateY(360deg);
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
   }
+}
 
-  .small-txt {
-    font-size: 1.3rem !important;
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
