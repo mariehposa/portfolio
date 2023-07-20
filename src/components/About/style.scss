@@ -1,0 +1,48 @@
+.about {
+	.sub {
+		font-size: 16px;
+		margin-bottom: 15px;
+		color: #74c0fc;
+	}
+}
+
+.main {
+	font-size: 70px;
+	font-weight: 700;
+	line-height: 80px;
+	margin-top: 10px;
+}
+
+.summary {
+	font-size: 62px;
+	font-weight: 700;
+	line-height: 80px;
+	opacity: 0.8;
+	color: #f0f2f3;
+	margin-top: 5px;
+}
+
+.intro {
+	font-size: 18px;
+	line-height: 35px;
+	margin-top: 25px;
+	opacity: 0.8;
+	color: #f0f2f3;
+}
+
+@media (max-width: 365px) {
+	.main {
+		font-size: 55px;
+		line-height: 70px;
+		margin-bottom: 10px;
+	}
+
+	.summary {
+		font-size: 50px;
+		line-height: 60px;
+	}
+
+	.intro {
+		font-size: 16px;
+	}
+}
