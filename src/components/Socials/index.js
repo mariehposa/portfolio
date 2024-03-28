@@ -54,15 +54,6 @@ const Socials = () => {
           <FontAwesomeIcon icon={faGithub} />
         </a>
         <a
-          href="https://www.linkedin.com/in/adedeji-mariam"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Mariam Adedeji LinkedIn profile"
-          title="LinkedIn"
-        >
-          <FontAwesomeIcon icon={faLinkedin} />
-        </a>
-        <a
           href="https://twitter.com/Mariehposah"
           target="_blank"
           rel="noopener noreferrer"
