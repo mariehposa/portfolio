@@ -2,4 +2,4 @@
 
 [mariamadedeji.com](https://mariamadedeji.com)
 
-<img width="1440" alt="image" src="https://github.com/mariehposa/portfolio/assets/33374159/d660ec5c-23c2-4ed2-b326-cb91acfe20f4">
+<img width="1400" alt="image" src="https://github.com/mariehposa/travis-ci-test/assets/33374159/27148695-c73a-4208-9b23-fff8cfa6b805">
