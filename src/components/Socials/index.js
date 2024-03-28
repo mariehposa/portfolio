@@ -9,7 +9,6 @@ import {
   faDev,
   faGithub,
   faHackerrank,
-  faLinkedin,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import "./style.scss";
